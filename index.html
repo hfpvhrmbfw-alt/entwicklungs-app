@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" id="tcLight" content="#E3DAD3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" id="tcDark" content="#1D1916" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Entwicklung deines Kindes festhalten: Meilensteine, Tagebuch, Wachstum, Fotos und altersgerechte Ideen. Alle Daten bleiben auf diesem Gerät.">
+<title>Entwicklung</title>
+<script>try{var t=localStorage.getItem('entwicklung-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Entwicklung">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="runhead">
+  <div class="wrap cap">
+    <span>Entwicklung · Begleiter</span>
+    <div class="headr">
+      <select id="childSel" aria-label="Kind auswählen" hidden></select>
+      <button type="button" class="themebtn" id="themeBtn">Farbe</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1 id="heroTitle">Entwicklung</h1>
+    <div class="subtitle cap" id="heroSub"></div>
+    <p class="lede" id="heroLede"></p>
+  </section>
+  <hr class="rule-heavy">
+
+  <section class="section onboard" id="onboard" hidden>
+    <h2 class="label"><span class="no">№ 01</span> — Erstes Kind anlegen</h2>
+    <form id="onboardForm" class="grid">
+      <div class="field"><label class="cap" for="obName">Name</label><input id="obName" name="name" required maxlength="60" autocomplete="off"></div>
+      <div class="field"><label class="cap" for="obBirth">Geburtsdatum</label><input id="obBirth" name="birthDate" type="date" required></div>
+    </form>
+    <div class="actions">
+      <button type="submit" form="onboardForm" class="btn primary">Kind anlegen</button>
+      <button type="button" class="btn" id="obDemo">Mit Beispieldaten ausprobieren</button>
+      <button type="button" class="btn" id="obImport">Backup laden</button>
+    </div>
+    <div class="note info"><span class="cap">Datenschutz</span>Alles bleibt auf diesem Gerät. Es gibt kein Konto und keinen Server. Sichere deine Daten regelmäßig über „Daten → Export“.</div>
+  </section>
+
+  <div class="tabs" id="app" hidden>
+    <div role="tablist" aria-label="Bereiche">
+      <button role="tab" id="tab-home" aria-controls="p-home" aria-selected="true">Übersicht</button>
+      <button role="tab" id="tab-log" aria-controls="p-log" aria-selected="false" tabindex="-1">Einträge</button>
+      <button role="tab" id="tab-ms" aria-controls="p-ms" aria-selected="false" tabindex="-1">Meilensteine</button>
+      <button role="tab" id="tab-ideas" aria-controls="p-ideas" aria-selected="false" tabindex="-1">Ideen</button>
+      <button role="tab" id="tab-data" aria-controls="p-data" aria-selected="false" tabindex="-1">Daten</button>
+    </div>
+    <div role="tabpanel" id="p-home" aria-labelledby="tab-home"></div>
+    <div role="tabpanel" id="p-log" aria-labelledby="tab-log" hidden></div>
+    <div role="tabpanel" id="p-ms" aria-labelledby="tab-ms" hidden></div>
+    <div role="tabpanel" id="p-ideas" aria-labelledby="tab-ideas" hidden></div>
+    <div role="tabpanel" id="p-data" aria-labelledby="tab-data" hidden></div>
+  </div>
+</main>
+
+<dialog class="dlg" id="dlg" aria-labelledby="dlgTitle">
+  <form id="dlgForm" novalidate></form>
+</dialog>
+<input type="file" id="importFile" accept=".zip,.json,application/zip,application/json" hidden>
+<div class="busy cap" id="busy" role="status" aria-live="polite" hidden></div>
+
+<footer><div class="wrap cap"><span>Daten nur auf diesem Gerät</span><span id="footInfo"></span></div></footer>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

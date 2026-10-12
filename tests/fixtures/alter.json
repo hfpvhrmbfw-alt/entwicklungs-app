@@ -1,0 +1,11 @@
+[
+ { "birthDate": "2025-03-10", "date": "2025-03-10", "expected": { "totalDays": 0, "totalMonths": 0, "years": 0, "months": 0, "days": 0 } },
+ { "birthDate": "2025-03-10", "date": "2025-04-09", "expected": { "totalDays": 30, "totalMonths": 0, "years": 0, "months": 0, "days": 30 } },
+ { "birthDate": "2025-03-10", "date": "2025-04-10", "expected": { "totalDays": 31, "totalMonths": 1, "years": 0, "months": 1, "days": 0 } },
+ { "birthDate": "2025-03-10", "date": "2026-10-12", "expected": { "totalDays": 581, "totalMonths": 19, "years": 1, "months": 7, "days": 2 } },
+ { "birthDate": "2024-01-31", "date": "2024-02-29", "expected": { "totalDays": 29, "totalMonths": 0, "years": 0, "months": 0, "days": 29 } },
+ { "birthDate": "2024-01-31", "date": "2024-03-01", "expected": { "totalDays": 30, "totalMonths": 1, "years": 0, "months": 1, "days": 1 } },
+ { "birthDate": "2024-02-29", "date": "2025-02-28", "expected": { "totalDays": 365, "totalMonths": 11, "years": 0, "months": 11, "days": 30 } },
+ { "birthDate": "2024-02-29", "date": "2025-03-01", "expected": { "totalDays": 366, "totalMonths": 12, "years": 1, "months": 0, "days": 1 } },
+ { "birthDate": "2025-03-10", "date": "2025-03-09", "expected": null }
+]
