@@ -40,7 +40,7 @@ Abhängigkeiten nur in eine Richtung (Oberfläche → Logik → Modell, Oberflä
 | `src/ui.js` | Oberfläche: Rendering, Dialog-Formulare, Theme |
 | `src/main.js` | Start, Aktionen, Ereignisse, Fotos verkleinern, Export, Import |
 
-Weitere Dateien: `index.html` · `styles.css` (Hausstil Web v1.2) · `sw.js` · `manifest.webmanifest` · `icons/` · `docs/SWIFT.md` (Übertragung nach Swift)
+Weitere Dateien: `index.html` · `styles.css` (Stil Brause aus dem Castra-Designsystem) · `sw.js` · `manifest.webmanifest` · `icons/` · `docs/SWIFT.md` (Übertragung nach Swift)
 
 ## Tests
 Logik, Modell, ZIP und Buch laufen ohne Browser und werden mit Node getestet (keine Abhängigkeiten):

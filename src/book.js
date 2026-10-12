@@ -7,9 +7,9 @@ import { esc, fmtDate, fmtShort, ageText, plural, cm, kg, dec } from './format.j
 import { AREA_LABEL } from './texts.js';
 
 const CSS = `
-:root{--bg:#E3DAD3;--surface:#F2EBE6;--sunken:#D8CDC5;--line:#C8BBB1;--ink:#111;--muted:#5C524D;--faint:#8D837C;--accent:#E8451C;--accent-text:#AA310D;--accent-ink:#111;
---serif:"Source Serif 4",Georgia,serif;--sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;--maxw:880px;--gutter:clamp(16px,4vw,40px);color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#1D1916;--surface:#27211D;--sunken:#332B26;--line:#463C35;--ink:#EFE6DE;--muted:#B7ABA1;--faint:#7F746B;--accent-text:#F0896F;color-scheme:dark}}
+:root{--bg:#F2E8C9;--surface:#FBF6E6;--sunken:#E8DCB5;--line:#D9CB9E;--ink:#1E1A2E;--muted:#544C68;--faint:#958C9F;--accent:#6B3FD4;--accent-text:#5630B0;--accent-ink:#FFFFFF;--label-no:#F2E8C9;
+--serif:"Bricolage Grotesque",system-ui,sans-serif;--sans:"Nunito",system-ui,sans-serif;--mono:"Space Mono",ui-monospace,monospace;--maxw:880px;--gutter:clamp(16px,4vw,40px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#1A1726;--surface:#242036;--sunken:#2F2A45;--line:#433C5E;--ink:#F1EBDA;--muted:#B9B0CC;--faint:#7D7592;--accent-text:#C3B0FF;color-scheme:dark}}
 *{box-sizing:border-box}html,body{background:var(--bg)}body{margin:0;color:var(--ink);font:16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
 .cap{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
@@ -20,7 +20,7 @@ const CSS = `
 .kpis{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));margin-bottom:48px}
 .kpi{border-top:1px solid var(--line);padding-top:8px}.kpi .cap{color:var(--muted)}.kpi .v{font:700 36px/1.1 var(--serif)}.kpi .v.acc{color:var(--accent)}.kpi .sub{color:var(--muted);font-size:14px}
 .section{border-bottom:2px solid var(--ink);padding-bottom:16px;margin:0 0 48px}
-.label{display:inline-block;background:var(--accent);color:var(--accent-ink);font:600 16px/1.2 var(--mono);letter-spacing:.04em;padding:9px 14px;margin:0 0 12px}.label .no{color:#fff}
+.label{display:inline-block;background:var(--accent);color:var(--accent-ink);font:600 16px/1.2 var(--mono);letter-spacing:.04em;padding:9px 14px;margin:0 0 12px}.label .no{color:var(--label-no)}.label{border-radius:6px}.hero h1{font-weight:800}
 .part{border-top:4px solid var(--ink);margin:40px 0 16px;padding-top:8px;color:var(--muted)}
 .table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;background:var(--surface)}
 th{text-align:left;font:600 12px var(--mono);letter-spacing:.1em;text-transform:uppercase;border-bottom:2px solid var(--ink);padding:12px 14px}
@@ -39,7 +39,7 @@ td{border-bottom:1px solid var(--line);padding:12px 14px;vertical-align:top}td.n
 .note{border-left:4px solid var(--accent);background:var(--sunken);padding:14px 18px;margin:12px 0 16px;color:var(--muted)}
 .empty{color:var(--muted);margin:8px 0}
 footer{border-top:2px solid var(--accent);margin-top:64px;padding:18px 0 40px;color:var(--muted)}
-@media print{:root{--bg:#fff;--surface:#fff;--sunken:#f3efec;--line:#ccc;--ink:#111;--muted:#444;--accent-text:#AA310D;color-scheme:light}
+@media print{:root{--bg:#fff;--surface:#fff;--sunken:#f3efec;--line:#ccc;--ink:#111;--muted:#444;--accent-text:#5630B0;color-scheme:light}
 .hero{padding-top:0}.section{break-inside:auto}.part:not(.first){break-before:page}.entry,.chart,tr{break-inside:avoid}a{color:inherit;text-decoration:none}}
 `;
 
@@ -126,7 +126,7 @@ export function buildBook({ child, data, milestoneTitles, milestoneAreas, ideaTi
 
   return `<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark"><title>Entwicklungsbuch · ${esc(child.name)}</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Nunito:wght@400;700&family=Space+Mono:wght@400;700&display=swap">
 <style>${CSS}</style></head><body>
 <header class="runhead"><div class="wrap cap"><span>Entwicklungsbuch · ${esc(child.name)}</span><span>Stand ${esc(fmtDate(today))}</span></div></header>
 <main class="wrap">
