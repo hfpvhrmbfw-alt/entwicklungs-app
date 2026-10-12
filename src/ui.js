@@ -413,9 +413,9 @@ export function applyTheme() {
   const t = state.settings.theme;
   if (t === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
   try { localStorage.setItem('entwicklung-theme', t); } catch { /* egal */ }
-  const forced = { light: '#E3DAD3', dark: '#1D1916' }[t];
-  $('tcLight').content = forced || '#E3DAD3';
-  $('tcDark').content = forced || '#1D1916';
+  const forced = { light: '#F2E8C9', dark: '#1A1726' }[t];
+  $('tcLight').content = forced || '#F2E8C9';
+  $('tcDark').content = forced || '#1A1726';
   $('themeBtn').textContent = 'Farbe: ' + THEME_LABEL[t];
   $('themeBtn').setAttribute('aria-label', `Farbschema: ${THEME_LABEL[t]}. Wechseln zu ${THEME_LABEL[THEME_NEXT[t]]}`);
 }
