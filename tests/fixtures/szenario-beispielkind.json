@@ -1,5 +1,5 @@
 {
- "beschreibung": "Beispielkind (makeDemo) am 12.10.2026 mit einer eigenen Idee, einem Favoriten und einer gemachten Idee",
+ "beschreibung": "Beispielkind (makeDemo) am 12.10.2026 mit einer eigenen Idee, einem Favoriten, gemachten Ideen und einem Wochenplan-Eintrag",
  "input": {
   "today": "2026-10-12",
   "data": {
@@ -7,7 +7,8 @@
     {
      "id": "demo-0",
      "name": "Beispielkind",
-     "birthDate": "2024-07-14"
+     "birthDate": "2024-07-14",
+     "dueDate": null
     }
    ],
    "milestones": [
@@ -16,7 +17,7 @@
      "childId": "demo-0",
      "catalogId": "m-kopf-heben",
      "title": "",
-     "date": "2024-09-10",
+     "date": "2024-09-14",
      "note": "",
      "photoIds": []
     },
@@ -25,7 +26,7 @@
      "childId": "demo-0",
      "catalogId": "o-laecheln",
      "title": "",
-     "date": "2024-08-23",
+     "date": "2024-09-08",
      "note": "",
      "photoIds": []
     },
@@ -34,205 +35,268 @@
      "childId": "demo-0",
      "catalogId": "s-gurren",
      "title": "",
-     "date": "2024-08-26",
+     "date": "2024-09-27",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-103",
      "childId": "demo-0",
-     "catalogId": "m-greifen",
+     "catalogId": "d-folgen",
      "title": "",
-     "date": "2024-11-16",
+     "date": "2024-10-04",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-104",
      "childId": "demo-0",
-     "catalogId": "o-lachen",
+     "catalogId": "m-greifen",
      "title": "",
-     "date": "2024-11-04",
+     "date": "2024-12-10",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-105",
      "childId": "demo-0",
-     "catalogId": "m-drehen",
+     "catalogId": "o-lachen",
      "title": "",
-     "date": "2025-01-07",
+     "date": "2024-11-19",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-106",
      "childId": "demo-0",
-     "catalogId": "m-sitzen",
+     "catalogId": "m-drehen",
      "title": "",
-     "date": "2025-02-12",
+     "date": "2025-01-09",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-107",
      "childId": "demo-0",
-     "catalogId": "s-silben",
+     "catalogId": "f-hand-zu-hand",
      "title": "",
-     "date": "2025-02-24",
+     "date": "2025-02-17",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-108",
      "childId": "demo-0",
-     "catalogId": "o-fremdeln",
+     "catalogId": "m-sitzen",
      "title": "",
-     "date": "2025-03-05",
+     "date": "2025-02-14",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-109",
      "childId": "demo-0",
-     "catalogId": "m-krabbeln",
+     "catalogId": "s-silben",
      "title": "",
-     "date": "2025-04-23",
+     "date": "2025-02-28",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-110",
      "childId": "demo-0",
-     "catalogId": "d-versteckt",
+     "catalogId": "o-fremdeln",
      "title": "",
-     "date": "2025-04-29",
+     "date": "2025-04-05",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-111",
      "childId": "demo-0",
-     "catalogId": "m-hochziehen",
+     "catalogId": "d-ursache",
      "title": "",
-     "date": "2025-04-11",
+     "date": "2025-04-18",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-112",
      "childId": "demo-0",
-     "catalogId": "o-winken",
+     "catalogId": "m-krabbeln",
      "title": "",
-     "date": "2025-07-02",
+     "date": "2025-05-24",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-113",
      "childId": "demo-0",
-     "catalogId": "s-erstes-wort",
+     "catalogId": "d-versteckt",
      "title": "",
-     "date": "2025-09-16",
+     "date": "2025-04-27",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-114",
      "childId": "demo-0",
-     "catalogId": "m-stehen",
+     "catalogId": "m-hochziehen",
      "title": "",
-     "date": "2025-08-11",
+     "date": "2025-04-01",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-115",
      "childId": "demo-0",
-     "catalogId": "m-laufen",
+     "catalogId": "m-pinzettengriff",
      "title": "",
-     "date": "2025-09-16",
+     "date": "2025-05-14",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-116",
      "childId": "demo-0",
-     "catalogId": "o-zeigen",
+     "catalogId": "o-winken",
      "title": "",
-     "date": "2025-07-23",
+     "date": "2025-07-14",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-117",
      "childId": "demo-0",
-     "catalogId": "d-nachahmen",
+     "catalogId": "s-name",
      "title": "",
-     "date": "2025-07-05",
+     "date": "2025-05-10",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-118",
      "childId": "demo-0",
-     "catalogId": "a-becher",
+     "catalogId": "s-erstes-wort",
      "title": "",
-     "date": "2025-12-26",
+     "date": "2025-08-22",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-119",
      "childId": "demo-0",
-     "catalogId": "s-zehn-woerter",
+     "catalogId": "m-stehen",
      "title": "",
-     "date": "2026-02-21",
+     "date": "2025-07-08",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-120",
      "childId": "demo-0",
-     "catalogId": "d-formen",
+     "catalogId": "m-laufen",
      "title": "",
-     "date": "2026-02-12",
+     "date": "2025-08-29",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-121",
      "childId": "demo-0",
-     "catalogId": "a-loeffel",
+     "catalogId": "o-zeigen",
      "title": "",
-     "date": "2026-01-19",
+     "date": "2025-09-05",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-122",
      "childId": "demo-0",
-     "catalogId": "m-rennen",
+     "catalogId": "d-nachahmen",
      "title": "",
-     "date": "2026-07-02",
+     "date": "2025-06-24",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-123",
      "childId": "demo-0",
-     "catalogId": "d-koerperteile",
+     "catalogId": "a-becher",
      "title": "",
-     "date": "2026-05-12",
+     "date": "2025-12-29",
      "note": "",
      "photoIds": []
     },
     {
      "id": "demo-124",
      "childId": "demo-0",
+     "catalogId": "f-turm",
+     "title": "",
+     "date": "2026-01-24",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-125",
+     "childId": "demo-0",
+     "catalogId": "s-zehn-woerter",
+     "title": "",
+     "date": "2026-03-27",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-126",
+     "childId": "demo-0",
+     "catalogId": "d-formen",
+     "title": "",
+     "date": "2026-01-23",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-127",
+     "childId": "demo-0",
+     "catalogId": "a-loeffel",
+     "title": "",
+     "date": "2025-12-22",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-128",
+     "childId": "demo-0",
+     "catalogId": "f-kritzeln",
+     "title": "",
+     "date": "2026-01-17",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-129",
+     "childId": "demo-0",
+     "catalogId": "m-rennen",
+     "title": "",
+     "date": "2026-08-13",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-130",
+     "childId": "demo-0",
+     "catalogId": "d-koerperteile",
+     "title": "",
+     "date": "2026-02-08",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-131",
+     "childId": "demo-0",
      "catalogId": "s-zwei-woerter",
      "title": "",
-     "date": "2026-07-18",
+     "date": "2026-06-15",
      "note": "",
      "photoIds": []
     },
@@ -271,29 +335,15 @@
     {
      "id": "demo-203",
      "childId": "demo-0",
-     "date": "2025-06-29",
-     "text": "Großer Spaß mit dem Kuckuck-Spiel unter der Decke.",
-     "photoIds": []
-    },
-    {
-     "id": "demo-204",
-     "childId": "demo-0",
      "date": "2025-10-14",
      "text": "Läuft jetzt quer durchs Wohnzimmer und findet das sehr lustig.",
      "photoIds": []
     },
     {
-     "id": "demo-205",
+     "id": "demo-204",
      "childId": "demo-0",
      "date": "2026-04-14",
      "text": "Lieblingswort der Woche: „Bagger“.",
-     "photoIds": []
-    },
-    {
-     "id": "demo-206",
-     "childId": "demo-0",
-     "date": "2026-09-13",
-     "text": "Hat beim Backen geholfen und den Teig probiert, bevor er im Ofen war.",
      "photoIds": []
     }
    ],
@@ -373,12 +423,24 @@
    "ideas": [
     {
      "id": "eigen-1",
-     "title": "Pfützen springen",
-     "kind": "uebung",
-     "area": "motorik",
+     "title": "Pfützen-Wettspringen",
+     "kind": "bewegung",
+     "area": "grobmotorik",
      "fromMonth": 18,
      "toMonth": 60,
-     "material": "Gummistiefel",
+     "minutes": 15,
+     "place": "draussen",
+     "prep": 0,
+     "materials": [],
+     "group": [],
+     "material": "",
+     "steps": [],
+     "learns": "",
+     "why": "",
+     "principle": "",
+     "easier": "",
+     "harder": "",
+     "safety": "",
      "text": "Nach dem Regen raus."
     }
    ],
@@ -387,602 +449,2658 @@
      "id": "demo-0:k-knete",
      "childId": "demo-0",
      "ideaId": "k-knete",
-     "favorite": true,
-     "doneDate": null
+     "favorite": true
+    }
+   ],
+   "activities": [
+    {
+     "id": "demo-400",
+     "childId": "demo-0",
+     "ideaId": "k-bauchlage-spiegel",
+     "date": "2024-10-13",
+     "note": "",
+     "photoIds": []
     },
     {
-     "id": "demo-0:k-wasser-schuetten",
+     "id": "demo-401",
+     "childId": "demo-0",
+     "ideaId": "k-kuckuck",
+     "date": "2025-03-15",
+     "note": "Hat sich vor Lachen kaum halten können.",
+     "photoIds": []
+    },
+    {
+     "id": "demo-402",
+     "childId": "demo-0",
+     "ideaId": "k-kissenparcours",
+     "date": "2025-06-14",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-403",
+     "childId": "demo-0",
+     "ideaId": "k-ausraeumkiste",
+     "date": "2025-09-13",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-404",
+     "childId": "demo-0",
+     "ideaId": "k-turm-bauen",
+     "date": "2026-01-13",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-405",
      "childId": "demo-0",
      "ideaId": "k-wasser-schuetten",
-     "favorite": false,
-     "doneDate": "2026-10-01"
+     "date": "2026-05-15",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-406",
+     "childId": "demo-0",
+     "ideaId": "k-tiergeraeusche",
+     "date": "2026-08-14",
+     "note": "",
+     "photoIds": []
+    },
+    {
+     "id": "demo-407",
+     "childId": "demo-0",
+     "ideaId": "k-pfuetzen",
+     "date": "2026-09-23",
+     "note": "Erste große Pfütze, Matschhose bewährt.",
+     "photoIds": []
+    },
+    {
+     "id": "demo-408",
+     "childId": "demo-0",
+     "ideaId": "k-puppe-versorgen",
+     "date": "2026-10-02",
+     "note": "",
+     "photoIds": []
+    }
+   ],
+   "plan": [
+    {
+     "id": "plan-1",
+     "childId": "demo-0",
+     "ideaId": "k-knete",
+     "date": "2026-10-14"
     }
    ]
   },
+  "home": [
+   "papier",
+   "stifte",
+   "ball",
+   "kissen",
+   "becher",
+   "wasser"
+  ],
   "milestoneCatalog": [
    {
     "id": "m-kopf-heben",
-    "area": "motorik",
+    "area": "grobmotorik",
     "fromMonth": 1,
     "toMonth": 4,
-    "title": "Hebt in Bauchlage den Kopf"
-   },
-   {
-    "id": "m-greifen",
-    "area": "motorik",
-    "fromMonth": 3,
-    "toMonth": 6,
-    "title": "Greift gezielt nach Spielzeug"
+    "title": "Hebt in Bauchlage den Kopf",
+    "tip": "Mehrmals täglich kurz auf den Bauch legen, im wachen Zustand, mit etwas Interessantem vor den Augen.",
+    "ideas": [
+     "k-bauchlage-spiegel",
+     "k-freie-bewegung"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-drehen",
-    "area": "motorik",
+    "area": "grobmotorik",
     "fromMonth": 4,
     "toMonth": 8,
-    "title": "Dreht sich vom Bauch auf den Rücken"
+    "title": "Dreht sich vom Bauch auf den Rücken",
+    "tip": "Viel Zeit frei am Boden; Spielzeug seitlich legen statt das Kind zu drehen.",
+    "ideas": [
+     "k-drehen-locken",
+     "k-freie-bewegung"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-sitzen",
-    "area": "motorik",
-    "fromMonth": 5,
+    "area": "grobmotorik",
+    "fromMonth": 4,
     "toMonth": 9,
-    "title": "Sitzt ohne Hilfe"
+    "title": "Sitzt ohne Hilfe",
+    "tip": "Nicht hinsetzen oder abstützen; das Kind findet über Seitlage und Robben selbst ins Sitzen.",
+    "ideas": [
+     "k-freie-bewegung",
+     "k-spiegel-spiel"
+    ],
+    "source": "who"
    },
    {
     "id": "m-krabbeln",
-    "area": "motorik",
-    "fromMonth": 6,
-    "toMonth": 12,
-    "title": "Krabbelt"
+    "area": "grobmotorik",
+    "fromMonth": 5,
+    "toMonth": 14,
+    "title": "Krabbelt auf Händen und Knien",
+    "tip": "Hindernisse und lohnende Ziele am Boden. Manche Kinder krabbeln nie und laufen trotzdem altersgemäß.",
+    "ideas": [
+     "k-kissenparcours",
+     "k-krabbeltunnel"
+    ],
+    "source": "who"
    },
    {
     "id": "m-hochziehen",
-    "area": "motorik",
-    "fromMonth": 7,
+    "area": "grobmotorik",
+    "fromMonth": 6,
     "toMonth": 12,
-    "title": "Zieht sich an Möbeln hoch"
-   },
-   {
-    "id": "m-pinzettengriff",
-    "area": "motorik",
-    "fromMonth": 8,
-    "toMonth": 12,
-    "title": "Nimmt Kleines zwischen Daumen und Zeigefinger"
+    "title": "Zieht sich an Möbeln hoch",
+    "tip": "Spielzeug auf die Sofakante legen; sichere Möbel ohne Kippgefahr.",
+    "ideas": [
+     "k-hochziehen-sofa"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-stehen",
-    "area": "motorik",
-    "fromMonth": 8,
+    "area": "grobmotorik",
+    "fromMonth": 7,
     "toMonth": 17,
-    "title": "Steht frei"
+    "title": "Steht frei",
+    "tip": "Barfuß üben lassen, die Füße spüren den Boden besser.",
+    "ideas": [
+     "k-hochziehen-sofa",
+     "k-schiebekarton"
+    ],
+    "source": "who"
    },
    {
     "id": "m-laufen",
-    "area": "motorik",
-    "fromMonth": 9,
+    "area": "grobmotorik",
+    "fromMonth": 8,
     "toMonth": 18,
-    "title": "Macht erste freie Schritte"
+    "title": "Macht erste freie Schritte",
+    "tip": "Nicht an beiden Händen führen; ein standfester Schiebewagen gibt Halt, das Gleichgewicht bleibt beim Kind.",
+    "ideas": [
+     "k-schiebekarton",
+     "k-ball-rollen"
+    ],
+    "source": "who"
    },
    {
     "id": "m-treppe",
-    "area": "motorik",
-    "fromMonth": 18,
+    "area": "grobmotorik",
+    "fromMonth": 15,
     "toMonth": 30,
-    "title": "Steigt mit Festhalten Treppen"
+    "title": "Steigt mit Festhalten Treppen",
+    "tip": "Unter Aufsicht üben, rückwärts krabbelnd runter zeigen.",
+    "ideas": [
+     "k-treppe",
+     "k-kissenparcours"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-rennen",
-    "area": "motorik",
+    "area": "grobmotorik",
     "fromMonth": 18,
     "toMonth": 30,
-    "title": "Rennt sicher"
+    "title": "Rennt sicher",
+    "tip": "Viel Zeit draußen auf unterschiedlichem Untergrund.",
+    "ideas": [
+     "k-pfuetzen",
+     "k-parcours-draussen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-huepfen",
-    "area": "motorik",
+    "area": "grobmotorik",
     "fromMonth": 24,
     "toMonth": 36,
-    "title": "Hüpft mit beiden Beinen"
+    "title": "Hüpft mit beiden Beinen",
+    "tip": "Vormachen, von niedriger Stufe herunterspringen an der Hand.",
+    "ideas": [
+     "k-huepfen",
+     "k-pfuetzen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-dreirad",
-    "area": "motorik",
-    "fromMonth": 30,
+    "area": "grobmotorik",
+    "fromMonth": 24,
     "toMonth": 48,
-    "title": "Fährt Laufrad oder Dreirad"
+    "title": "Fährt Laufrad oder Dreirad",
+    "tip": "Auf ebenem, verkehrsfreiem Weg mit Helm üben lassen.",
+    "ideas": [
+     "k-laufrad"
+    ],
+    "source": "orientierung"
    },
    {
-    "id": "m-schere",
-    "area": "motorik",
-    "fromMonth": 30,
-    "toMonth": 48,
-    "title": "Schneidet mit der Kinderschere"
+    "id": "m-fangen",
+    "area": "grobmotorik",
+    "fromMonth": 36,
+    "toMonth": 60,
+    "title": "Fängt einen großen Ball",
+    "tip": "Großer, leichter Ball, kurzer Abstand, Arme vorstrecken lassen.",
+    "ideas": [
+     "k-ball-fangen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-einbein",
-    "area": "motorik",
+    "area": "grobmotorik",
     "fromMonth": 36,
     "toMonth": 60,
-    "title": "Steht kurz auf einem Bein"
+    "title": "Steht kurz auf einem Bein",
+    "tip": "Als Spiel üben, nicht als Test.",
+    "ideas": [
+     "k-storch",
+     "k-seil-balancieren"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "m-greifen",
+    "area": "feinmotorik",
+    "fromMonth": 3,
+    "toMonth": 6,
+    "title": "Greift gezielt nach Spielzeug",
+    "tip": "Leichte Dinge in Greifnähe anbieten, warten statt in die Hand drücken.",
+    "ideas": [
+     "k-greifring",
+     "k-rassel"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "f-hand-zu-hand",
+    "area": "feinmotorik",
+    "fromMonth": 5,
+    "toMonth": 9,
+    "title": "Gibt Dinge von einer Hand in die andere",
+    "tip": "Zwei Dinge nacheinander anbieten, damit eine Hand frei werden muss.",
+    "ideas": [
+     "k-stoffe",
+     "k-greifring"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "m-pinzettengriff",
+    "area": "feinmotorik",
+    "fromMonth": 8,
+    "toMonth": 12,
+    "title": "Nimmt Kleines zwischen Daumen und Zeigefinger",
+    "tip": "Weiche Fingerfood-Stücke anbieten, unter Aufsicht.",
+    "ideas": [
+     "k-fingerfood",
+     "k-einwurfbox"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "f-turm",
+    "area": "feinmotorik",
+    "fromMonth": 12,
+    "toMonth": 24,
+    "title": "Baut einen Turm aus drei bis vier Steinen",
+    "tip": "Große Steine, abwechselnd bauen, Umwerfen gehört dazu.",
+    "ideas": [
+     "k-turm-bauen",
+     "k-becher-stapeln"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "f-kritzeln",
+    "area": "feinmotorik",
+    "fromMonth": 12,
+    "toMonth": 24,
+    "title": "Kritzelt mit einem Stift",
+    "tip": "Dicke Stifte, großes festgeklebtes Papier.",
+    "ideas": [
+     "k-kritzeln",
+     "k-fingermalen"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "m-schere",
+    "area": "feinmotorik",
+    "fromMonth": 30,
+    "toMonth": 48,
+    "title": "Schneidet mit der Kinderschere",
+    "tip": "Mit schmalen Streifen beginnen, Daumen oben.",
+    "ideas": [
+     "k-schneiden",
+     "k-reissbild"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "f-faedeln",
+    "area": "feinmotorik",
+    "fromMonth": 30,
+    "toMonth": 48,
+    "title": "Fädelt große Perlen auf",
+    "tip": "Schnur mit festem Ende, große Perlen.",
+    "ideas": [
+     "k-perlen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "m-mensch-malen",
-    "area": "motorik",
+    "area": "feinmotorik",
     "fromMonth": 42,
     "toMonth": 66,
-    "title": "Malt einen Menschen mit Kopf, Armen und Beinen"
+    "title": "Malt einen Menschen mit Kopf, Armen und Beinen",
+    "tip": "Viel malen lassen, nicht korrigieren; nach dem Bild fragen statt es zu deuten.",
+    "ideas": [
+     "k-name-spuren",
+     "k-falten"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-gurren",
     "area": "sprache",
     "fromMonth": 1,
     "toMonth": 4,
-    "title": "Gurrt und macht Laute"
+    "title": "Gurrt und macht Laute",
+    "tip": "Laute nachmachen und Pausen lassen; das Baby antwortet.",
+    "ideas": [
+     "k-lautdialog",
+     "k-grimassen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-silben",
     "area": "sprache",
     "fromMonth": 6,
     "toMonth": 10,
-    "title": "Plappert Silbenketten (ba-ba, da-da)"
+    "title": "Plappert Silbenketten (ba-ba, da-da)",
+    "tip": "Silben zurückgeben und neue anbieten.",
+    "ideas": [
+     "k-lautdialog",
+     "k-fingerspiele"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "s-name",
+    "area": "sprache",
+    "fromMonth": 6,
+    "toMonth": 12,
+    "title": "Reagiert auf den eigenen Namen",
+    "tip": "Den Namen oft und freundlich nutzen, Blickkontakt suchen.",
+    "ideas": [
+     "k-gesichter-buch",
+     "k-alltag-erzaehlen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-erstes-wort",
     "area": "sprache",
     "fromMonth": 10,
     "toMonth": 18,
-    "title": "Sagt das erste Wort mit Bedeutung"
+    "title": "Sagt das erste Wort mit Bedeutung",
+    "tip": "Zeigen aufgreifen und benennen, viel gemeinsam anschauen.",
+    "ideas": [
+     "k-zeigen-benennen",
+     "k-bilderbuch"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-zehn-woerter",
     "area": "sprache",
     "fromMonth": 15,
     "toMonth": 24,
-    "title": "Spricht etwa zehn Wörter"
+    "title": "Spricht etwa zehn Wörter",
+    "tip": "Antworten statt abfragen; Wörter in kurze Sätze einbetten.",
+    "ideas": [
+     "k-tiergeraeusche",
+     "k-koerperteile"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-zwei-woerter",
     "area": "sprache",
     "fromMonth": 18,
     "toMonth": 30,
-    "title": "Bildet Zwei-Wort-Sätze"
+    "title": "Bildet Zwei-Wort-Sätze",
+    "tip": "Was das Kind sagt, um ein, zwei Wörter erweitern: „Auto weg“ → „Ja, das Auto ist weggefahren.“",
+    "ideas": [
+     "k-wimmelbuch",
+     "k-dialog-lesen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-saetze",
     "area": "sprache",
     "fromMonth": 30,
     "toMonth": 42,
-    "title": "Spricht Sätze mit drei und mehr Wörtern"
+    "title": "Spricht Sätze mit drei und mehr Wörtern",
+    "tip": "Beim Vorlesen offene Fragen stellen und das Kind erzählen lassen.",
+    "ideas": [
+     "k-dialog-lesen",
+     "k-wimmelbuch"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-warum",
     "area": "sprache",
     "fromMonth": 30,
     "toMonth": 48,
-    "title": "Stellt Warum-Fragen"
+    "title": "Stellt Warum-Fragen",
+    "tip": "Fragen ernst nehmen, gemeinsam Antworten suchen oder beobachten.",
+    "ideas": [
+     "k-natur-sammeln",
+     "k-kresse"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "s-erzaehlen",
     "area": "sprache",
     "fromMonth": 42,
     "toMonth": 66,
-    "title": "Erzählt kleine Geschichten"
+    "title": "Erzählt kleine Geschichten",
+    "tip": "Abends vom Tag erzählen lassen, Geschichten gemeinsam weiterspinnen.",
+    "ideas": [
+     "k-geschichte",
+     "k-dialog-lesen"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "s-reime",
+    "area": "sprache",
+    "fromMonth": 48,
+    "toMonth": 72,
+    "title": "Erkennt und findet Reime",
+    "tip": "Reime in Büchern betonen, Quatschreime erlaubt.",
+    "ideas": [
+     "k-reime",
+     "k-silben-klatschen"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-folgen",
+    "area": "kognition",
+    "fromMonth": 1,
+    "toMonth": 4,
+    "title": "Folgt Dingen mit den Augen",
+    "tip": "Kontrastreiche Dinge langsam vor dem Gesicht bewegen.",
+    "ideas": [
+     "k-kontrastkarten",
+     "k-rassel"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-ursache",
+    "area": "kognition",
+    "fromMonth": 6,
+    "toMonth": 12,
+    "title": "Wiederholt Handlungen, die etwas bewirken",
+    "tip": "Spielzeug, das auf Handeln reagiert: Töpfe, Rasseln, Einwurfbox.",
+    "ideas": [
+     "k-topfmusik",
+     "k-einwurfbox"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-versteckt",
+    "area": "kognition",
+    "fromMonth": 8,
+    "toMonth": 12,
+    "title": "Sucht versteckte Gegenstände",
+    "tip": "Kuckuck spielen, Spielzeug unter einem Tuch verstecken.",
+    "ideas": [
+     "k-kuckuck",
+     "k-versteck-becher"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-nachahmen",
+    "area": "kognition",
+    "fromMonth": 9,
+    "toMonth": 15,
+    "title": "Ahmt einfache Handlungen nach",
+    "tip": "Alltagshandlungen langsam vormachen: telefonieren, kehren, umrühren.",
+    "ideas": [
+     "k-gesten",
+     "k-haushalt"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-formen",
+    "area": "kognition",
+    "fromMonth": 15,
+    "toMonth": 24,
+    "title": "Steckt einfache Formen ein",
+    "tip": "Mit einer Form beginnen, drehen zeigen.",
+    "ideas": [
+     "k-formen-sortieren",
+     "k-einwurfbox"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-koerperteile",
+    "area": "kognition",
+    "fromMonth": 15,
+    "toMonth": 26,
+    "title": "Zeigt Körperteile",
+    "tip": "Beim Wickeln und Baden benennen, Lieder mit Körperteilen.",
+    "ideas": [
+     "k-koerperteile",
+     "k-spiegel-spiel"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-farben",
+    "area": "kognition",
+    "fromMonth": 30,
+    "toMonth": 48,
+    "title": "Benennt erste Farben",
+    "tip": "Farben im Alltag nebenbei benennen, sortieren statt abfragen.",
+    "ideas": [
+     "k-farben-sortieren",
+     "k-ich-sehe"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-zaehlen",
+    "area": "kognition",
+    "fromMonth": 30,
+    "toMonth": 48,
+    "title": "Zählt bis drei",
+    "tip": "Im Alltag zählen und dabei auf jedes Ding zeigen.",
+    "ideas": [
+     "k-zaehlen-alltag",
+     "k-tisch-decken"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-puzzle",
+    "area": "kognition",
+    "fromMonth": 30,
+    "toMonth": 48,
+    "title": "Legt ein Puzzle mit mehreren Teilen",
+    "tip": "Mit wenigen großen Teilen beginnen, Ränder zuerst.",
+    "ideas": [
+     "k-memory",
+     "k-muster-legen"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "d-name",
+    "area": "kognition",
+    "fromMonth": 54,
+    "toMonth": 72,
+    "title": "Schreibt den eigenen Namen",
+    "tip": "Großbuchstaben vorschreiben, nachspuren lassen.",
+    "ideas": [
+     "k-name-spuren"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-laecheln",
     "area": "sozial",
     "fromMonth": 1,
     "toMonth": 3,
-    "title": "Lächelt zurück"
+    "title": "Lächelt zurück",
+    "tip": "Viel Gesicht zu Gesicht, freundlich ansprechen.",
+    "ideas": [
+     "k-grimassen",
+     "k-lautdialog"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-lachen",
     "area": "sozial",
     "fromMonth": 3,
     "toMonth": 6,
-    "title": "Lacht laut"
+    "title": "Lacht laut",
+    "tip": "Kitzel- und Kniereiterspiele, Vorfreude aufbauen.",
+    "ideas": [
+     "k-fingerspiele",
+     "k-musik-schaukeln"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-fremdeln",
     "area": "sozial",
     "fromMonth": 6,
     "toMonth": 12,
-    "title": "Fremdelt"
+    "title": "Fremdelt",
+    "tip": "Zeichen einer gewachsenen Bindung. Neue Menschen langsam und mit dir in der Nähe kennenlernen.",
+    "ideas": [
+     "k-gesichter-buch",
+     "k-kuckuck"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-winken",
     "area": "sozial",
-    "fromMonth": 9,
+    "fromMonth": 8,
     "toMonth": 15,
-    "title": "Winkt oder klatscht"
+    "title": "Winkt oder klatscht",
+    "tip": "Gesten im Alltag deutlich vormachen.",
+    "ideas": [
+     "k-gesten",
+     "k-lieder-bewegung"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-zeigen",
     "area": "sozial",
     "fromMonth": 10,
     "toMonth": 16,
-    "title": "Zeigt auf Dinge, die es interessieren"
+    "title": "Zeigt auf Dinge, die es interessieren",
+    "tip": "Auf das Zeigen eingehen und benennen.",
+    "ideas": [
+     "k-zeigen-benennen",
+     "k-spaziergang-zeigen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-nebeneinander",
     "area": "sozial",
     "fromMonth": 18,
     "toMonth": 36,
-    "title": "Spielt neben anderen Kindern"
+    "title": "Spielt neben anderen Kindern",
+    "tip": "Zeit mit anderen Kindern ohne Erwartung an gemeinsames Spiel.",
+    "ideas": [
+     "k-sandkasten",
+     "k-ball-rollen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-als-ob",
     "area": "sozial",
-    "fromMonth": 24,
-    "toMonth": 42,
-    "title": "Spielt „so tun als ob“"
+    "fromMonth": 18,
+    "toMonth": 36,
+    "title": "Spielt „so tun als ob“",
+    "tip": "Mitspielen und Ideen aufgreifen: Teddy füttern, Telefon aus Bauklotz.",
+    "ideas": [
+     "k-puppe-versorgen",
+     "k-kaufladen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "o-miteinander",
     "area": "sozial",
     "fromMonth": 36,
     "toMonth": 60,
-    "title": "Spielt mit anderen Kindern zusammen"
+    "title": "Spielt mit anderen Kindern zusammen",
+    "tip": "Rollenspiele und einfache Regelspiele anbieten.",
+    "ideas": [
+     "k-kaufladen",
+     "k-brettspiel"
+    ],
+    "source": "orientierung"
    },
    {
-    "id": "d-versteckt",
-    "area": "denken",
-    "fromMonth": 8,
-    "toMonth": 12,
-    "title": "Sucht versteckte Gegenstände"
-   },
-   {
-    "id": "d-nachahmen",
-    "area": "denken",
-    "fromMonth": 9,
-    "toMonth": 15,
-    "title": "Ahmt einfache Handlungen nach"
-   },
-   {
-    "id": "d-formen",
-    "area": "denken",
-    "fromMonth": 15,
-    "toMonth": 24,
-    "title": "Steckt einfache Formen ein"
-   },
-   {
-    "id": "d-koerperteile",
-    "area": "denken",
-    "fromMonth": 18,
-    "toMonth": 26,
-    "title": "Zeigt Körperteile"
-   },
-   {
-    "id": "d-farben",
-    "area": "denken",
-    "fromMonth": 30,
-    "toMonth": 48,
-    "title": "Benennt erste Farben"
-   },
-   {
-    "id": "d-zaehlen",
-    "area": "denken",
-    "fromMonth": 30,
-    "toMonth": 48,
-    "title": "Zählt bis drei"
-   },
-   {
-    "id": "d-puzzle",
-    "area": "denken",
-    "fromMonth": 30,
-    "toMonth": 48,
-    "title": "Legt ein Puzzle mit mehreren Teilen"
-   },
-   {
-    "id": "d-name",
-    "area": "denken",
-    "fromMonth": 54,
-    "toMonth": 72,
-    "title": "Schreibt den eigenen Namen"
+    "id": "o-gefuehle",
+    "area": "sozial",
+    "fromMonth": 36,
+    "toMonth": 60,
+    "title": "Benennt eigene Gefühle",
+    "tip": "Gefühle im Alltag benennen, auch eigene.",
+    "ideas": [
+     "k-gefuehle",
+     "k-streit-loesen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "a-becher",
-    "area": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 12,
     "toMonth": 24,
-    "title": "Trinkt aus dem offenen Becher"
+    "title": "Trinkt aus dem offenen Becher",
+    "tip": "Kleiner Becher, wenig Wasser, Kleckern erlaubt.",
+    "ideas": [
+     "k-wasser-schuetten",
+     "k-badewanne"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "a-loeffel",
-    "area": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 12,
     "toMonth": 24,
-    "title": "Isst mit dem Löffel"
+    "title": "Isst mit dem Löffel",
+    "tip": "Eigenen Löffel geben, dicker Brei.",
+    "ideas": [
+     "k-loeffel",
+     "k-fingerfood"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "a-ausziehen",
-    "area": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 18,
     "toMonth": 30,
-    "title": "Zieht Kleidung selbst aus"
+    "title": "Zieht Kleidung selbst aus",
+    "tip": "Socken halb runterziehen, Rest macht das Kind.",
+    "ideas": [
+     "k-ausziehen"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "a-aufraeumen",
+    "area": "selbststaendigkeit",
+    "fromMonth": 18,
+    "toMonth": 36,
+    "title": "Hilft beim Aufräumen",
+    "tip": "Feste Plätze, Aufräumlied, konkrete Aufträge.",
+    "ideas": [
+     "k-aufraeumlied",
+     "k-haushalt"
+    ],
+    "source": "orientierung"
+   },
+   {
+    "id": "a-haende",
+    "area": "selbststaendigkeit",
+    "fromMonth": 24,
+    "toMonth": 42,
+    "title": "Wäscht sich die Hände selbst",
+    "tip": "Hocker am Waschbecken, Abläufe vormachen.",
+    "ideas": [
+     "k-haende-waschen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "a-trocken",
-    "area": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 24,
     "toMonth": 48,
-    "title": "Ist tagsüber trocken"
+    "title": "Ist tagsüber trocken",
+    "tip": "Ohne Druck: Das Kind zeigt, wann es bereit ist. Rückschritte sind normal.",
+    "ideas": [
+     "k-tagesablauf"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "a-zaehne",
-    "area": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 30,
     "toMonth": 60,
-    "title": "Putzt die Zähne selbst (mit Nachputzen)"
+    "title": "Putzt die Zähne selbst (mit Nachputzen)",
+    "tip": "Selbst putzen lassen, danach nachputzen.",
+    "ideas": [
+     "k-zaehne-putzen"
+    ],
+    "source": "orientierung"
    },
    {
     "id": "a-anziehen",
-    "area": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 36,
     "toMonth": 60,
-    "title": "Zieht sich selbst an"
+    "title": "Zieht sich selbst an",
+    "tip": "Kleidung in Reihenfolge hinlegen, Zeit einplanen.",
+    "ideas": [
+     "k-selbst-anziehen",
+     "k-tagesablauf"
+    ],
+    "source": "orientierung"
    }
   ],
   "ideaCatalog": [
    {
     "id": "k-kontrastkarten",
     "title": "Kontrastkarten anschauen",
-    "kind": "spiel",
-    "area": "denken",
+    "kind": "sinne",
+    "area": "kognition",
     "fromMonth": 0,
     "toMonth": 4,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
     "material": "Karten mit kräftigem Schwarz-Weiß-Muster",
-    "text": "Die Karte etwa 25 cm vor das Gesicht halten und langsam zur Seite bewegen. Das Baby folgt mit den Augen."
+    "steps": [
+     "Karte etwa 25 cm vor das Gesicht halten, das ist die Entfernung, in der Neugeborene am schärfsten sehen.",
+     "Warten, bis das Baby hinschaut, dann langsam zur Seite bewegen.",
+     "Aufhören, wenn es wegschaut: Das ist sein Zeichen für „genug“."
+    ],
+    "learns": "Mit den Augen fixieren und einer Bewegung folgen.",
+    "why": "Das Sehen ist bei Geburt noch unscharf; starke Kontraste geben dem Sehsystem klare Reize zum Üben.",
+    "principle": "Sensomotorisches Lernen: Kleinkinder begreifen die Welt über Sinne und Bewegung (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-bauchlage-spiegel",
     "title": "Bauchlage mit Spiegel",
-    "kind": "uebung",
-    "area": "motorik",
-    "fromMonth": 1,
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 0,
     "toMonth": 6,
-    "material": "Kleiner, bruchsicherer Spiegel",
-    "text": "Im wachen Zustand kurz auf den Bauch legen und den Spiegel davorstellen. Das stärkt Nacken und Rücken. Immer dabeibleiben."
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "spiegel"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Bruchsicherer Spiegel",
+    "steps": [
+     "Baby im wachen Zustand auf eine feste Decke auf den Bauch legen.",
+     "Spiegel oder dein Gesicht auf Augenhöhe davor.",
+     "Mehrmals täglich kurz, anfangs ein, zwei Minuten, mit der Zeit länger."
+    ],
+    "learns": "Kopf heben und halten, sich auf die Unterarme stützen.",
+    "why": "In Bauchlage trainiert das Baby genau die Muskeln, die es später zum Drehen, Krabbeln und Sitzen braucht.",
+    "principle": "Bauchlage im wachen Zustand stärkt Nacken, Schultern und Rumpf (Empfehlung der American Academy of Pediatrics)",
+    "easier": "",
+    "harder": "",
+    "safety": "Bauchlage nur im wachen Zustand und unter Aufsicht, zum Schlafen immer auf den Rücken.",
+    "text": ""
    },
    {
     "id": "k-grimassen",
     "title": "Grimassen nachmachen",
     "kind": "spiel",
     "area": "sozial",
-    "fromMonth": 1,
+    "fromMonth": 0,
     "toMonth": 8,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
     "material": "",
-    "text": "Nah vor dem Gesicht langsam den Mund öffnen oder die Zunge zeigen, dann warten. Viele Babys antworten mit derselben Bewegung."
+    "steps": [
+     "Nah vor dem Gesicht langsam den Mund öffnen oder die Zunge zeigen.",
+     "Mehrere Sekunden warten, Babys brauchen Zeit für die Antwort.",
+     "Macht es etwas nach, dasselbe zurückmachen."
+    ],
+    "learns": "Sich als Gegenüber erleben und auf Gesichter reagieren.",
+    "why": "Wechselseitiges Nachahmen ist eine der ersten Formen von Dialog.",
+    "principle": "Lernen durch Nachahmung: Schon Babys ahmen Gesichter und Handlungen nach (Meltzoff)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-lieder-bewegung",
     "title": "Lieder mit Bewegungen",
-    "kind": "spiel",
+    "kind": "sprache",
     "area": "sprache",
     "fromMonth": 0,
     "toMonth": 24,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
     "material": "",
-    "text": "Beim Singen sanft Hände oder Füße im Takt bewegen. Wiederholung ist gewollt: Das Kind erkennt Lieder bald wieder."
+    "steps": [
+     "Ein kurzes Lied singen und dabei Hände oder Füße sanft im Takt bewegen.",
+     "Immer wieder dieselben Lieder nehmen.",
+     "Bei älteren Kindern Pausen lassen, damit sie Wörter oder Bewegungen ergänzen."
+    ],
+    "learns": "Sprachmelodie, Rhythmus und erste Wörter.",
+    "why": "Wiederholung macht Sprache vorhersagbar; das Kind erkennt Lieder wieder und beteiligt sich bald selbst.",
+    "principle": "Rhythmus, Reim und Wiederholung helfen Kindern, Sprache zu gliedern und zu behalten",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-rassel",
     "title": "Der Rassel folgen",
     "kind": "spiel",
-    "area": "motorik",
+    "area": "feinmotorik",
+    "fromMonth": 1,
+    "toMonth": 7,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "musik"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Rassel",
+    "steps": [
+     "Seitlich leise rasseln, bis das Baby den Kopf dreht.",
+     "Später die Rassel so halten, dass es danach greifen kann.",
+     "Gelingt das Greifen, Rassel loslassen und das Kind selbst schütteln lassen."
+    ],
+    "learns": "Geräusche orten, Augen und Hand zusammenbringen, greifen.",
+    "why": "Hören, Sehen und Bewegen werden gekoppelt; das ist die Vorstufe des gezielten Greifens.",
+    "principle": "Ursache und Wirkung: Das Kind entdeckt, dass sein Handeln etwas bewirkt (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-babymassage",
+    "title": "Babymassage",
+    "kind": "alltag",
+    "area": "sozial",
+    "fromMonth": 0,
+    "toMonth": 12,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "Etwas Pflanzenöl ohne Duftstoffe, warmer Raum",
+    "steps": [
+     "Warmen, ruhigen Moment wählen, nicht direkt nach dem Essen.",
+     "Mit sanftem Druck Arme, Beine und Bauch ausstreichen, dazu leise sprechen oder summen.",
+     "Auf Signale achten: Wegdrehen oder Weinen heißt Pause."
+    ],
+    "learns": "Den eigenen Körper spüren, sich beruhigen lassen.",
+    "why": "Feinfühliger Körperkontakt beruhigt und stärkt die Bindung.",
+    "principle": "Feinfühligkeit: Prompte, liebevolle Antworten auf Signale stärken sichere Bindung (Ainsworth)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-alltag-erzaehlen",
+    "title": "Alltag erzählen",
+    "kind": "sprache",
+    "area": "sprache",
+    "fromMonth": 0,
+    "toMonth": 18,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Beim Wickeln, Anziehen oder Kochen beschreiben, was du tust: „Jetzt kommt der Socken.“",
+     "Kurze, klare Sätze, mit Blickkontakt.",
+     "Auf Laute des Kindes antworten, als wäre es ein Gespräch."
+    ],
+    "learns": "Wortschatz und Sprachverständnis, lange bevor es selbst spricht.",
+    "why": "Wie viel und wie zugewandt mit Kindern gesprochen wird, hängt mit ihrer späteren Sprachentwicklung zusammen.",
+    "principle": "Sprachangebot: Kinder lernen Wörter aus vielen gut verständlichen Beispielen im Alltag",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-lautdialog",
+    "title": "Lautgespräch",
+    "kind": "sprache",
+    "area": "sprache",
+    "fromMonth": 1,
+    "toMonth": 10,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Gesicht zu Gesicht, Abstand etwa 30 cm.",
+     "Laute des Babys nachmachen: „Ah-guh.“",
+     "Pause machen und warten, bis es antwortet."
+    ],
+    "learns": "Die Grundform des Gesprächs: ich, du, ich.",
+    "why": "Babys plappern mehr und vielfältiger, wenn Erwachsene auf ihre Laute antworten.",
+    "principle": "Serve and Return: Wechselseitige Zuwendung prägt die Gehirnentwicklung (Center on the Developing Child, Harvard)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-greifring",
+    "title": "Etwas zum Greifen",
+    "kind": "spiel",
+    "area": "feinmotorik",
+    "fromMonth": 3,
+    "toMonth": 8,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "Greifring oder leichtes Spielzeug aus Stoff oder Holz",
+    "steps": [
+     "Baby auf den Rücken legen, Spielzeug über die Brust halten.",
+     "Warten, bis es die Hände danach ausstreckt.",
+     "Spielzeug in die Hand geben, wenn es fast klappt."
+    ],
+    "learns": "Gezielt greifen, halten, von einer Hand in die andere geben.",
+    "why": "Das Greifen entwickelt sich vom zufälligen Treffen zum zielgenauen Zugreifen.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
+   },
+   {
+    "id": "k-strampeln",
+    "title": "Strampeln gegen Widerstand",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 1,
+    "toMonth": 6,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kissen"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Weiches Kissen",
+    "steps": [
+     "Baby auf dem Rücken, ein Kissen an die Fußsohlen halten.",
+     "Es tritt dagegen, du gibst leicht nach.",
+     "Dazu einen Reim im Takt sprechen."
+    ],
+    "learns": "Kraft in Beinen und Rumpf, Körpergefühl.",
+    "why": "Kräftige Bewegungen gegen Widerstand stärken die Muskulatur für Drehen und Krabbeln.",
+    "principle": "Freie Bewegungsentwicklung: Kinder finden Bewegungen selbst, wenn sie Raum und Zeit bekommen (Emmi Pikler)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-drehen-locken",
+    "title": "Zum Drehen einladen",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 3,
+    "toMonth": 8,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "figuren"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Lieblingsspielzeug",
+    "steps": [
+     "Baby auf dem Rücken, Spielzeug seitlich auf den Boden legen, gut sichtbar.",
+     "Abwarten, ob es sich danach streckt und dreht.",
+     "Nicht drehen, nur mit Worten ermutigen."
+    ],
+    "learns": "Sich vom Rücken auf die Seite und den Bauch drehen.",
+    "why": "Das Kind entdeckt die Drehung selbst; selbst gefundene Bewegungen sind sicherer und flüssiger.",
+    "principle": "Freie Bewegungsentwicklung: Kinder finden Bewegungen selbst, wenn sie Raum und Zeit bekommen (Emmi Pikler)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-spaziergang-zeigen",
+    "title": "Unterwegs zeigen und benennen",
+    "kind": "ausflug",
+    "area": "sprache",
+    "fromMonth": 0,
+    "toMonth": 30,
+    "minutes": 20,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Beim Spaziergang stehen bleiben, wenn das Kind etwas anschaut.",
+     "Benennen, was es sieht: „Ein Hund! Der Hund bellt.“",
+     "Ältere Kinder fragen: „Was hörst du?“"
+    ],
+    "learns": "Wörter mit Dingen verbinden, gemeinsam auf etwas achten.",
+    "why": "Wenn Erwachsene dem Blick des Kindes folgen und benennen, lernt es Wörter besonders gut.",
+    "principle": "Geteilte Aufmerksamkeit: Gemeinsam auf etwas schauen ist ein Grundstein der Sprache (Tomasello)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-musik-schaukeln",
+    "title": "Schaukeln im Takt",
+    "kind": "sinne",
+    "area": "sozial",
+    "fromMonth": 0,
+    "toMonth": 12,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "musik"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Baby im Arm halten, ruhige Musik oder ein Lied.",
+     "Langsam im Takt wiegen und tanzen.",
+     "Tempo nach der Stimmung des Kindes wählen: langsam beruhigt, schneller weckt."
+    ],
+    "learns": "Rhythmus spüren, sich regulieren lassen.",
+    "why": "Rhythmische Bewegung im Körperkontakt hilft Babys, sich zu beruhigen.",
+    "principle": "Co-Regulation: Kinder lernen Gefühle zu regulieren, indem Erwachsene sie dabei begleiten",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-fuesse-entdecken",
+    "title": "Hände und Füße entdecken",
+    "kind": "sinne",
+    "area": "kognition",
     "fromMonth": 2,
     "toMonth": 7,
-    "material": "Rassel",
-    "text": "Seitlich leise rasseln, damit das Kind den Kopf dreht. Später die Rassel so halten, dass es danach greifen kann."
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "Bunte Söckchen",
+    "steps": [
+     "Bunte Söckchen anziehen oder die Füße sanft zum Gesicht führen.",
+     "Finger und Zehen benennen und berühren.",
+     "Das Baby greifen und erkunden lassen."
+    ],
+    "learns": "Den eigenen Körper als „meins“ entdecken.",
+    "why": "Das Körperschema entsteht, wenn Kinder ihren Körper sehen, fühlen und bewegen.",
+    "principle": "Sensomotorisches Lernen: Kleinkinder begreifen die Welt über Sinne und Bewegung (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-seifenblasen",
+    "title": "Seifenblasen",
+    "kind": "sinne",
+    "area": "kognition",
+    "fromMonth": 3,
+    "toMonth": 36,
+    "minutes": 10,
+    "place": "beides",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "Seifenblasen",
+    "steps": [
+     "Langsam Seifenblasen pusten, das Kind schaut zu.",
+     "Ältere Babys greifen danach, Kleinkinder klatschen oder stampfen sie kaputt.",
+     "Ab etwa drei Jahren selbst pusten lassen."
+    ],
+    "learns": "Mit den Augen folgen, greifen, später Mundmotorik beim Pusten.",
+    "why": "Bewegte Reize wecken Aufmerksamkeit und laden zum Greifen und Bewegen ein.",
+    "principle": "Ursache und Wirkung: Das Kind entdeckt, dass sein Handeln etwas bewirkt (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "Seifenblasenlauge nicht trinken lassen, nicht in die Augen.",
+    "text": ""
+   },
+   {
+    "id": "k-gesichter-buch",
+    "title": "Familienfotos anschauen",
+    "kind": "sprache",
+    "area": "sprache",
+    "fromMonth": 2,
+    "toMonth": 18,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "Fotos von Familie und Freunden",
+    "steps": [
+     "Große Fotos von vertrauten Gesichtern zeigen.",
+     "Benennen: „Das ist Oma.“",
+     "Später fragen: „Wo ist Papa?“ und auf das Zeigen warten."
+    ],
+    "learns": "Gesichter erkennen, erste Namen verstehen.",
+    "why": "Gesichter sind für Babys besonders interessant; vertraute Personen benennen verbindet Sprache mit Beziehung.",
+    "principle": "Geteilte Aufmerksamkeit: Gemeinsam auf etwas schauen ist ein Grundstein der Sprache (Tomasello)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-freie-bewegung",
+    "title": "Freier Platz am Boden",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 0,
+    "toMonth": 14,
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kissen"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Feste Decke auf dem Boden",
+    "steps": [
+     "Eine sichere, feste Fläche am Boden einrichten.",
+     "Kind in leichter Kleidung hinlegen, ein, zwei Dinge in Reichweite.",
+     "Zuschauen statt eingreifen; das Kind bewegt sich in seinem Tempo."
+    ],
+    "learns": "Drehen, Robben, Krabbeln, Aufsetzen aus eigener Kraft.",
+    "why": "Kinder, die viel Zeit frei am Boden verbringen, finden jede Bewegungsstufe selbst.",
+    "principle": "Freie Bewegungsentwicklung: Kinder finden Bewegungen selbst, wenn sie Raum und Zeit bekommen (Emmi Pikler)",
+    "easier": "",
+    "harder": "",
+    "safety": "Fläche frei von Kleinteilen, Abstand zu Treppen und Kanten.",
+    "text": ""
+   },
+   {
+    "id": "k-badewanne",
+    "title": "Badewannen-Spiel",
+    "kind": "sinne",
+    "area": "kognition",
+    "fromMonth": 4,
+    "toMonth": 24,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "becher",
+     "wasser"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Becher, Schwamm",
+    "steps": [
+     "Becher, Schwamm und einen Löffel mit in die Wanne.",
+     "Zeigen: Wasser schöpfen, ausgießen, Schwamm ausdrücken.",
+     "Das Kind ausprobieren lassen und benennen, was passiert."
+    ],
+    "learns": "Ursache und Wirkung, voll und leer, Hand-Augen-Koordination.",
+    "why": "Wasser reagiert sofort auf jede Bewegung und macht Zusammenhänge sichtbar.",
+    "principle": "Ursache und Wirkung: Das Kind entdeckt, dass sein Handeln etwas bewirkt (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "Bei Wasser immer in Reichweite bleiben, auch bei wenigen Zentimetern Tiefe.",
+    "text": ""
+   },
+   {
+    "id": "k-spiegel-spiel",
+    "title": "Vor dem Spiegel",
+    "kind": "spiel",
+    "area": "sozial",
+    "fromMonth": 3,
+    "toMonth": 18,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "spiegel"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Gemeinsam vor einen Spiegel setzen.",
+     "Winken, Grimassen machen, Nase zeigen.",
+     "Später fragen: „Wo ist dein Bauch?“"
+    ],
+    "learns": "Sich selbst und andere beobachten, später sich selbst erkennen.",
+    "why": "Mit etwa eineinhalb Jahren erkennen sich viele Kinder im Spiegel; das Spiel begleitet diesen Schritt.",
+    "principle": "Lernen durch Nachahmung: Schon Babys ahmen Gesichter und Handlungen nach (Meltzoff)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-fingerspiele",
+    "title": "Fingerspiele und Kniereiter",
+    "kind": "sprache",
+    "area": "sprache",
+    "fromMonth": 3,
+    "toMonth": 36,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Ein bekanntes Fingerspiel oder einen Kniereiter wählen (z. B. „Das ist der Daumen“, „Hoppe hoppe Reiter“).",
+     "Langsam und mit Betonung, die Pointe ankündigen.",
+     "Oft wiederholen; das Kind wird die Pointe bald erwarten."
+    ],
+    "learns": "Sprachrhythmus, Vorfreude, erste Wörter mitsprechen.",
+    "why": "Feste Abläufe mit Spannung und Auflösung machen Sprache vorhersagbar und laden zum Mitmachen ein.",
+    "principle": "Rhythmus, Reim und Wiederholung helfen Kindern, Sprache zu gliedern und zu behalten",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-stoffe",
     "title": "Stoffe erfühlen",
-    "kind": "spiel",
-    "area": "denken",
+    "kind": "sinne",
+    "area": "feinmotorik",
     "fromMonth": 3,
     "toMonth": 12,
-    "material": "Verschiedene Stoffreste (glatt, rau, weich)",
-    "text": "Nacheinander Stoffe zum Greifen und Fühlen anbieten und benennen: weich, rau, glatt."
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "tuch"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Stoffreste: glatt, rau, weich",
+    "steps": [
+     "Nacheinander Stoffe zum Greifen anbieten.",
+     "Dabei benennen: weich, rau, glatt.",
+     "Beobachten, welcher Stoff länger festgehalten wird."
+    ],
+    "learns": "Tasten, greifen, Unterschiede wahrnehmen.",
+    "why": "Babys erkunden die Welt mit Händen und Mund; Abwechslung schärft die Wahrnehmung.",
+    "principle": "Sensomotorisches Lernen: Kleinkinder begreifen die Welt über Sinne und Bewegung (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-kuckuck",
     "title": "Kuckuck-Spiel",
     "kind": "spiel",
-    "area": "denken",
-    "fromMonth": 6,
+    "area": "kognition",
+    "fromMonth": 5,
     "toMonth": 15,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "tuch"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Ein Tuch",
-    "text": "Das eigene Gesicht oder ein Spielzeug unter dem Tuch verstecken und wieder auftauchen lassen. Später zieht das Kind das Tuch selbst weg."
+    "steps": [
+     "Dein Gesicht hinter dem Tuch verstecken: „Wo ist Mama?“",
+     "Wieder auftauchen: „Kuckuck!“",
+     "Dann ein Spielzeug halb, später ganz unter dem Tuch verstecken."
+    ],
+    "learns": "Dass Dinge und Menschen weiter da sind, auch wenn man sie nicht sieht.",
+    "why": "Zwischen 8 und 12 Monaten beginnen Kinder, versteckte Dinge zu suchen; das Spiel übt genau das und macht Trennungen begreifbar.",
+    "principle": "Objektpermanenz: Dinge existieren weiter, auch wenn man sie nicht sieht (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-bilderbuch",
     "title": "Erste Bilderbücher",
-    "kind": "spiel",
+    "kind": "sprache",
     "area": "sprache",
     "fromMonth": 6,
     "toMonth": 24,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "buecher"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Pappbilderbuch",
-    "text": "Gemeinsam anschauen, auf Bilder zeigen und sie benennen. Das Kind bestimmt das Tempo."
+    "steps": [
+     "Gemeinsam anschauen, das Kind darf umblättern, auch rückwärts.",
+     "Auf Bilder zeigen und benennen.",
+     "Später fragen: „Wo ist der Ball?“ und warten, bis es zeigt."
+    ],
+    "learns": "Wörter verstehen, zeigen, Bücher handhaben.",
+    "why": "Gemeinsames Anschauen verbindet Sprache mit Aufmerksamkeit für dieselbe Sache.",
+    "principle": "Geteilte Aufmerksamkeit: Gemeinsam auf etwas schauen ist ein Grundstein der Sprache (Tomasello)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-ausraeumkiste",
     "title": "Ausräumkiste",
     "kind": "spiel",
-    "area": "motorik",
+    "area": "feinmotorik",
     "fromMonth": 7,
     "toMonth": 18,
-    "material": "Kiste mit sicheren Alltagsdingen (keine Kleinteile)",
-    "text": "Holzlöffel, Becher, Tücher, ein Schneebesen: Ausräumen und Einräumen ist für Kinder in diesem Alter ein großes Spiel."
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "karton",
+     "toepfe"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Kiste mit sicheren Alltagsdingen: Holzlöffel, Becher, Tücher, Schneebesen",
+    "steps": [
+     "Kiste mit fünf bis acht sicheren Dingen füllen.",
+     "Das Kind ausräumen lassen und benennen, was es findet.",
+     "Gemeinsam einräumen: „Rein in die Kiste.“"
+    ],
+    "learns": "Greifen, loslassen, rein und raus, erste Wörter.",
+    "why": "Ausräumen ist für Kinder dieses Alters ein Forschungsprojekt: Gewicht, Form, Klang.",
+    "principle": "Sensomotorisches Lernen: Kleinkinder begreifen die Welt über Sinne und Bewegung (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
    },
    {
     "id": "k-kissenparcours",
     "title": "Kissen-Parcours",
-    "kind": "uebung",
-    "area": "motorik",
-    "fromMonth": 7,
-    "toMonth": 15,
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 6,
+    "toMonth": 18,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kissen"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Sofakissen, Decken",
-    "text": "Kissen auf dem Boden verteilen, sodass das Kind darüber krabbeln oder sich daran hochziehen kann."
+    "steps": [
+     "Kissen und zusammengerollte Decken auf dem Boden verteilen.",
+     "Ein Lieblingsspielzeug auf der anderen Seite.",
+     "Das Kind krabbelt drüber, später klettert es."
+    ],
+    "learns": "Krabbeln, klettern, Gleichgewicht, Körperspannung.",
+    "why": "Unebener Untergrund fordert Gleichgewicht und Kraft mehr als glatter Boden.",
+    "principle": "Freie Bewegungsentwicklung: Kinder finden Bewegungen selbst, wenn sie Raum und Zeit bekommen (Emmi Pikler)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-topfmusik",
     "title": "Topfmusik",
     "kind": "spiel",
-    "area": "denken",
-    "fromMonth": 8,
+    "area": "kognition",
+    "fromMonth": 6,
     "toMonth": 24,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "toepfe"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Töpfe, Deckel, Holzlöffel",
-    "text": "Verschiedene Töpfe klingen unterschiedlich. Laut und leise ausprobieren, gemeinsam einen Takt klopfen."
+    "steps": [
+     "Töpfe umgedreht auf den Boden stellen.",
+     "Mit dem Holzlöffel vormachen: laut, leise.",
+     "Später gemeinsam einen Takt klopfen."
+    ],
+    "learns": "Ursache und Wirkung, laut und leise, Rhythmus.",
+    "why": "Das Kind erlebt, dass sein Handeln einen Klang erzeugt und dass verschiedene Dinge verschieden klingen.",
+    "principle": "Ursache und Wirkung: Das Kind entdeckt, dass sein Handeln etwas bewirkt (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-becher-stapeln",
     "title": "Becher stapeln und umwerfen",
     "kind": "spiel",
-    "area": "motorik",
+    "area": "feinmotorik",
     "fromMonth": 8,
-    "toMonth": 24,
-    "material": "Stapelbecher",
-    "text": "Erst bauen Erwachsene, das Kind wirft um. Nach und nach stapelt es selbst."
+    "toMonth": 30,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Stapelbecher oder Joghurtbecher",
+    "steps": [
+     "Erst baust du einen Turm, das Kind wirft um.",
+     "Dann Becher ineinanderstecken lassen.",
+     "Später selbst stapeln, groß nach klein."
+    ],
+    "learns": "Greifen, loslassen, Größen vergleichen.",
+    "why": "Umwerfen macht Ursache und Wirkung erlebbar, Stapeln verlangt gezieltes Loslassen.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-schiebekarton",
     "title": "Karton schieben",
-    "kind": "uebung",
-    "area": "motorik",
-    "fromMonth": 9,
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 8,
     "toMonth": 18,
-    "material": "Schwerer Karton, z. B. mit Büchern beschwert",
-    "text": "Ein beschwerter Karton ist ein standfester Schiebewagen für die ersten Schritte."
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "karton"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Stabiler Karton, mit Büchern beschwert",
+    "steps": [
+     "Karton so beschweren, dass er nicht wegrutscht.",
+     "Kind zieht sich daran hoch und schiebt.",
+     "Auf Teppich geht es langsamer und sicherer."
+    ],
+    "learns": "Hochziehen, Stehen, erste Schritte mit Halt.",
+    "why": "Ein standfester Schiebewagen gibt Halt, ohne das Kind zu tragen.",
+    "principle": "Freie Bewegungsentwicklung: Kinder finden Bewegungen selbst, wenn sie Raum und Zeit bekommen (Emmi Pikler)",
+    "easier": "",
+    "harder": "",
+    "safety": "Kein leichter Karton, der kippt; weg von Treppen.",
+    "text": ""
    },
    {
     "id": "k-ball-rollen",
     "title": "Ball hin und her rollen",
     "kind": "spiel",
     "area": "sozial",
-    "fromMonth": 10,
+    "fromMonth": 8,
     "toMonth": 24,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "ball"
+    ],
+    "group": [
+     "eins",
+     "geschwister"
+    ],
     "material": "Weicher Ball",
-    "text": "Gegenüber sitzen und den Ball zurollen. Das übt Abwechseln: Du bist dran, ich bin dran."
+    "steps": [
+     "Gegenüber sitzen, Beine gegrätscht.",
+     "Ball zurollen: „Du bist dran.“",
+     "Abwarten, bis es zurückrollt."
+    ],
+    "learns": "Abwechseln, Ball greifen und zielen.",
+    "why": "Hin und her ist die einfachste Form des gemeinsamen Spiels und die Grundlage für Gespräche.",
+    "principle": "Abwechseln (Turn-Taking) ist die Grundlage von Gespräch und Kooperation",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-fingerfood",
+    "title": "Fingerfood selbst essen",
+    "kind": "alltag",
+    "area": "feinmotorik",
+    "fromMonth": 7,
+    "toMonth": 16,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kueche"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Weiches Obst und Gemüse in kleinen Stücken",
+    "steps": [
+     "Ein paar weiche Stücke auf das Tablett legen.",
+     "Kind selbst greifen lassen, auch wenn es kleckert.",
+     "Benennen: „Banane, weich.“"
+    ],
+    "learns": "Pinzettengriff, Hand-Mund-Koordination, selbstständiges Essen.",
+    "why": "Kleine Stücke fordern genau den Daumen-Zeigefinger-Griff, der sich jetzt entwickelt.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "Lebensmittel weich und in kleinen Stücken anbieten; keine ganzen Trauben, Nüsse oder harten Rohkoststücke.",
+    "text": ""
+   },
+   {
+    "id": "k-versteck-becher",
+    "title": "Unter welchem Becher?",
+    "kind": "spiel",
+    "area": "kognition",
+    "fromMonth": 8,
+    "toMonth": 18,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Zwei Becher, kleines Spielzeug (größer als 3 cm)",
+    "steps": [
+     "Spielzeug sichtbar unter einen Becher legen.",
+     "Kind darf suchen.",
+     "Wenn es klappt: unter den anderen Becher legen und beobachten."
+    ],
+    "learns": "Versteckte Dinge suchen, sich merken, wo etwas ist.",
+    "why": "Den Ort wechseln fordert das Gedächtnis; viele Kinder suchen anfangs am alten Ort weiter (A-nicht-B-Fehler).",
+    "principle": "Objektpermanenz: Dinge existieren weiter, auch wenn man sie nicht sieht (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
+   },
+   {
+    "id": "k-gesten",
+    "title": "Winken, klatschen, Gesten",
+    "kind": "spiel",
+    "area": "sozial",
+    "fromMonth": 7,
+    "toMonth": 18,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Bei Begrüßung und Abschied deutlich winken.",
+     "Bei Liedern klatschen, „so groß“ mit den Armen zeigen.",
+     "Jede Geste des Kindes freudig beantworten."
+    ],
+    "learns": "Sich mit Gesten verständigen, nachahmen.",
+    "why": "Gesten sind Vorläufer der Sprache; Kinder, die viel gestikulieren, haben oft früh einen größeren Wortschatz.",
+    "principle": "Lernen durch Nachahmung: Schon Babys ahmen Gesichter und Handlungen nach (Meltzoff)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-zeigen-benennen",
+    "title": "Zeigen aufgreifen",
+    "kind": "sprache",
+    "area": "sprache",
+    "fromMonth": 9,
+    "toMonth": 20,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Wenn das Kind auf etwas zeigt, hinschauen.",
+     "Benennen und einen Satz dazu sagen: „Ein Vogel. Der Vogel fliegt.“",
+     "Nicht abfragen, sondern antworten."
+    ],
+    "learns": "Wörter für das, was es gerade interessiert.",
+    "why": "Zeigen heißt: „Schau mal!“ Wer darauf eingeht, liefert das passende Wort im richtigen Moment.",
+    "principle": "Geteilte Aufmerksamkeit: Gemeinsam auf etwas schauen ist ein Grundstein der Sprache (Tomasello)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-einwurfbox",
+    "title": "Einwurfbox",
+    "kind": "basteln",
+    "area": "kognition",
+    "fromMonth": 8,
+    "toMonth": 20,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "karton",
+     "ball"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Karton mit Loch im Deckel, Bälle oder Bauklötze",
+    "steps": [
+     "Ein Loch in einen Karton schneiden, so groß wie ein Ball.",
+     "Vormachen: Ball rein, Deckel auf, Ball wieder raus.",
+     "Kind selbst einwerfen lassen."
+    ],
+    "learns": "Objektpermanenz, Hand-Augen-Koordination, gezieltes Loslassen.",
+    "why": "Das Ding verschwindet und taucht wieder auf; das Kind übt, sich das vorzustellen.",
+    "principle": "Objektpermanenz: Dinge existieren weiter, auch wenn man sie nicht sieht (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
+   },
+   {
+    "id": "k-hochziehen-sofa",
+    "title": "Am Sofa entlang",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 7,
+    "toMonth": 14,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "figuren"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Spielzeug, Sofa",
+    "steps": [
+     "Spielzeug auf die Sofakante legen.",
+     "Kind zieht sich hoch, um es zu erreichen.",
+     "Später ein zweites Spielzeug etwas weiter, damit es seitlich geht."
+    ],
+    "learns": "Hochziehen, Stehen mit Halt, seitliches Gehen.",
+    "why": "Ein Ziel in Reichweite motiviert zur nächsten Bewegung, ohne das Kind hinzustellen.",
+    "principle": "Zone der nächsten Entwicklung: Mit etwas Hilfe gelingt, was allein noch nicht klappt (Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "Weiche Unterlage, Ecken abpolstern.",
+    "text": ""
+   },
+   {
+    "id": "k-musik-machen",
+    "title": "Selbst Musik machen",
+    "kind": "spiel",
+    "area": "kognition",
+    "fromMonth": 6,
+    "toMonth": 30,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "musik",
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Rassel oder Dose mit Reis, fest verschlossen",
+    "steps": [
+     "Gemeinsam rasseln und trommeln.",
+     "Mal schnell, mal langsam spielen.",
+     "Pause, und dann gemeinsam weiter."
+    ],
+    "learns": "Rhythmus, Tempo, Nachahmung.",
+    "why": "Musik verbindet Hören, Bewegung und Abwechseln.",
+    "principle": "Rhythmus, Reim und Wiederholung helfen Kindern, Sprache zu gliedern und zu behalten",
+    "easier": "",
+    "harder": "",
+    "safety": "Selbstgemachte Rasseln fest verschließen und kleben.",
+    "text": ""
+   },
+   {
+    "id": "k-krabbeltunnel",
+    "title": "Krabbeltunnel",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 8,
+    "toMonth": 30,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kissen",
+     "karton"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Stühle und Decke oder großer Karton",
+    "steps": [
+     "Aus zwei Stühlen und einer Decke einen Tunnel bauen.",
+     "Auf der anderen Seite rufen oder ein Spielzeug zeigen.",
+     "Abwechselnd durchkrabbeln."
+    ],
+    "learns": "Krabbeln, Raumgefühl, Mut.",
+    "why": "Durch etwas hindurch, unter etwas her: So lernen Kinder Raumbegriffe mit dem ganzen Körper.",
+    "principle": "Freie Bewegungsentwicklung: Kinder finden Bewegungen selbst, wenn sie Raum und Zeit bekommen (Emmi Pikler)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-wasser-schuetten",
     "title": "Wasser umschütten",
-    "kind": "spiel",
-    "area": "motorik",
+    "kind": "sinne",
+    "area": "feinmotorik",
     "fromMonth": 12,
     "toMonth": 36,
-    "material": "Becher, Schüssel, Handtuch",
-    "text": "In der Badewanne oder draußen Wasser von Becher zu Becher gießen. Nur mit Aufsicht."
+    "minutes": 15,
+    "place": "beides",
+    "prep": 0,
+    "materials": [
+     "wasser",
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Becher, Schüssel, Kanne, Handtuch",
+    "steps": [
+     "Becher, Schüssel und eine kleine Kanne bereitstellen.",
+     "Vormachen: von einem Becher in den anderen gießen.",
+     "Kleckern ist erlaubt, das Handtuch liegt bereit."
+    ],
+    "learns": "Gezielt gießen, voll und leer, Geduld.",
+    "why": "Gießen verlangt feine Dosierung aus Hand und Handgelenk.",
+    "principle": "Übungen des täglichen Lebens: echte Aufgaben fördern Selbstständigkeit und Konzentration (Montessori-Pädagogik)",
+    "easier": "",
+    "harder": "",
+    "safety": "Bei Wasser immer in Reichweite bleiben, auch bei wenigen Zentimetern Tiefe.",
+    "text": ""
    },
    {
     "id": "k-formen-sortieren",
     "title": "Formen einstecken",
     "kind": "spiel",
-    "area": "denken",
+    "area": "kognition",
     "fromMonth": 12,
     "toMonth": 30,
-    "material": "Steckbox oder Karton mit ausgeschnittenen Löchern",
-    "text": "Bausteine durch passende Löcher stecken. Mit einer Form beginnen, dann mehr anbieten."
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "karton",
+     "bausteine"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Steckbox oder Karton mit ausgeschnittenen Formen",
+    "steps": [
+     "Mit einer Form beginnen, meist Kreis.",
+     "Zeigen, wie man dreht, bis es passt.",
+     "Nach und nach weitere Formen."
+    ],
+    "learns": "Formen unterscheiden, drehen, Ausdauer.",
+    "why": "Das Kind lernt durch Ausprobieren, dass die Form zum Loch passen muss.",
+    "principle": "Zone der nächsten Entwicklung: Mit etwas Hilfe gelingt, was allein noch nicht klappt (Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-kritzeln",
     "title": "Erstes Kritzeln",
     "kind": "basteln",
-    "area": "motorik",
+    "area": "feinmotorik",
     "fromMonth": 12,
     "toMonth": 30,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "papier",
+     "stifte"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Dicke Wachsmalblöcke, großes Papier",
-    "text": "Das Papier auf dem Tisch festkleben, damit es nicht wegrutscht. Es geht ums Ausprobieren, nicht um ein Bild."
+    "steps": [
+     "Papier auf dem Tisch oder Boden festkleben.",
+     "Dicke Stifte anbieten, die die ganze Faust umfassen kann.",
+     "Nicht korrigieren; beschreiben, was du siehst: „Ganz viel Rot!“"
+    ],
+    "learns": "Stift halten, Spuren hinterlassen, Hand-Augen-Koordination.",
+    "why": "Kritzeln ist die Vorstufe des Zeichnens und Schreibens; die Bewegung kommt anfangs aus der Schulter.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-tiergeraeusche",
-    "title": "Tiergeräusche raten",
-    "kind": "spiel",
+    "title": "Tiergeräusche",
+    "kind": "sprache",
     "area": "sprache",
     "fromMonth": 12,
     "toMonth": 30,
-    "material": "Tierbilder oder Spielfiguren",
-    "text": "Ein Tier zeigen und das Geräusch machen. Später macht das Kind das Geräusch und du rätst."
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "figuren",
+     "buecher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Tierfiguren oder Bilderbuch",
+    "steps": [
+     "Tier zeigen und das Geräusch machen: „Die Kuh macht muh.“",
+     "Fragen: „Was macht der Hund?“",
+     "Rollentausch: Das Kind macht das Geräusch, du rätst."
+    ],
+    "learns": "Laute nachahmen, Tiere benennen.",
+    "why": "Tierlaute sind leicht nachzusprechen und oft die ersten „Wörter“.",
+    "principle": "Lernen durch Nachahmung: Schon Babys ahmen Gesichter und Handlungen nach (Meltzoff)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-aufraeumlied",
     "title": "Aufräumen mit Lied",
-    "kind": "uebung",
-    "area": "alltag",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 15,
+    "toMonth": 42,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Immer dasselbe kurze Aufräumlied singen.",
+     "Gemeinsam aufräumen, jedes Ding hat einen festen Platz.",
+     "Konkrete Aufträge: „Die Bausteine in die Kiste.“"
+    ],
+    "learns": "Abläufe, einfache Aufträge, Verantwortung.",
+    "why": "Rituale machen Übergänge leichter, feste Plätze machen Ordnung für Kinder möglich.",
+    "principle": "Übungen des täglichen Lebens: echte Aufgaben fördern Selbstständigkeit und Konzentration (Montessori-Pädagogik)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-puppe-versorgen",
+    "title": "Kuscheltier versorgen",
+    "kind": "spiel",
+    "area": "sozial",
+    "fromMonth": 15,
+    "toMonth": 42,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "figuren",
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Puppe oder Kuscheltier, Löffel, Tuch",
+    "steps": [
+     "Zeigen: Kuscheltier füttern, zudecken, trösten.",
+     "Kind machen lassen und mitspielen: „Ist der Teddy müde?“",
+     "Gefühle benennen: „Der Teddy ist traurig, er hat sich wehgetan.“"
+    ],
+    "learns": "So-tun-als-ob, Fürsorge, Gefühlswörter.",
+    "why": "Im Symbolspiel stellt sich das Kind etwas vor, das gerade nicht da ist, und übt Rollen und Gefühle.",
+    "principle": "Symbolspiel: Im So-tun-als-ob üben Kinder Vorstellung, Sprache und Rollen (Piaget, Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-treppe",
+    "title": "Treppe üben",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 12,
+    "toMonth": 30,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "Eine Treppe mit Geländer",
+    "steps": [
+     "Erst rückwärts krabbelnd runter zeigen.",
+     "Hoch an der Hand oder am Geländer, ein Fuß nach dem anderen.",
+     "Langsam, ohne Eile."
+    ],
+    "learns": "Steigen, Gleichgewicht, Selbsteinschätzung.",
+    "why": "Treppen fordern Kraft, Gleichgewicht und Planung; unter Aufsicht lernen Kinder ihre Grenzen kennen.",
+    "principle": "Zone der nächsten Entwicklung: Mit etwas Hilfe gelingt, was allein noch nicht klappt (Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "Nur mit Aufsicht.",
+    "text": ""
+   },
+   {
+    "id": "k-ausziehen",
+    "title": "Socken und Mütze ausziehen",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 14,
+    "toMonth": 30,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Socken etwas vom Fuß ziehen, das Kind zieht den Rest.",
+     "Mütze abnehmen lassen.",
+     "Loben, was es geschafft hat: „Du hast den Socken ausgezogen!“"
+    ],
+    "learns": "Selbst etwas schaffen, Finger einsetzen.",
+    "why": "Ausziehen ist leichter als Anziehen und ein früher Schritt zur Selbstständigkeit.",
+    "principle": "Selbstwirksamkeit: Die Erfahrung „Ich kann das“ stärkt Motivation und Ausdauer (Bandura)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-loeffel",
+    "title": "Selbst mit dem Löffel essen",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 12,
+    "toMonth": 24,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kueche"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Kinderlöffel, dicker Brei oder Joghurt",
+    "steps": [
+     "Dicker Brei bleibt besser am Löffel.",
+     "Eigenen Löffel geben, du hast einen zweiten.",
+     "Kleckern gehört dazu, Lätzchen und Unterlage helfen."
+    ],
+    "learns": "Löffel führen, Hand-Mund-Koordination.",
+    "why": "Selbst essen trainiert die Hand und stärkt das Gefühl, etwas selbst zu können.",
+    "principle": "Selbstwirksamkeit: Die Erfahrung „Ich kann das“ stärkt Motivation und Ausdauer (Bandura)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-sandkasten",
+    "title": "Schaufeln und füllen",
+    "kind": "ausflug",
+    "area": "feinmotorik",
+    "fromMonth": 12,
+    "toMonth": 42,
+    "minutes": 20,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [
+     "sand",
+     "becher"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "Schaufel, Eimer, Förmchen",
+    "steps": [
+     "Im Sandkasten Eimer füllen, umdrehen, klopfen.",
+     "Förmchen backen lassen.",
+     "Mit anderen Kindern Schaufeln tauschen üben."
+    ],
+    "learns": "Schaufeln, füllen, Kraft dosieren, mit anderen spielen.",
+    "why": "Sand gibt nach und lässt sich formen; Kinder üben Kraft und Geschick ohne Druck.",
+    "principle": "Sensomotorisches Lernen: Kleinkinder begreifen die Welt über Sinne und Bewegung (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-natur-sammeln",
+    "title": "Naturschätze sammeln",
+    "kind": "ausflug",
+    "area": "kognition",
+    "fromMonth": 15,
+    "toMonth": 60,
+    "minutes": 30,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [
+     "natur"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "Ein Beutel oder Korb",
+    "steps": [
+     "Beim Spaziergang Blätter, Stöcke, Steine, Zapfen sammeln.",
+     "Zu Hause auslegen und sortieren: groß und klein, rau und glatt.",
+     "Ältere Kinder legen Muster oder zählen."
+    ],
+    "learns": "Beobachten, vergleichen, sortieren, später zählen.",
+    "why": "Echte Gegenstände mit vielen Merkmalen laden zum Vergleichen und Ordnen ein.",
+    "principle": "Klassifizieren: Dinge nach Merkmalen ordnen ist eine Grundlage des Denkens (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Beeren, Pilze oder Kleinteile in den Mund (unter 3 Jahren).",
+    "text": ""
+   },
+   {
+    "id": "k-turm-bauen",
+    "title": "Türme bauen",
+    "kind": "spiel",
+    "area": "feinmotorik",
+    "fromMonth": 12,
+    "toMonth": 36,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "bausteine"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Große Bausteine",
+    "steps": [
+     "Mit zwei Steinen beginnen.",
+     "Turm wächst gemeinsam, abwechselnd ein Stein.",
+     "Umwerfen gehört dazu, dann neu."
+    ],
+    "learns": "Präzises Ablegen, Abwechseln, Ausdauer.",
+    "why": "Mit etwa 18 Monaten gelingen vielen Kindern Türme aus drei bis vier Steinen; jedes Stück mehr verlangt ruhigere Hände.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
+   },
+   {
+    "id": "k-koerperteile",
+    "title": "Wo ist deine Nase?",
+    "kind": "spiel",
+    "area": "sprache",
+    "fromMonth": 12,
+    "toMonth": 30,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Fragen: „Wo ist deine Nase?“ und selbst zeigen.",
+     "Bei Liedern wie „Kopf, Schulter, Knie und Fuß“ mitzeigen.",
+     "Am Kuscheltier wiederholen."
+    ],
+    "learns": "Wörter für Körperteile, auf Fragen reagieren.",
+    "why": "Kinder verstehen viel mehr Wörter, als sie sprechen; Zeigen macht dieses Verständnis sichtbar.",
+    "principle": "Sprachangebot: Kinder lernen Wörter aus vielen gut verständlichen Beispielen im Alltag",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-haushalt",
+    "title": "Im Haushalt mithelfen",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 18,
+    "toMonth": 72,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister"
+    ],
+    "material": "Wäsche, Besteck, Lappen",
+    "steps": [
+     "Kleine echte Aufgaben geben: Socken in den Korb, Löffel in die Schublade.",
+     "Ältere Kinder sortieren Wäsche nach Farben oder Personen.",
+     "Danken, nicht nachbessern."
+    ],
+    "learns": "Selbstständigkeit, Sortieren, Zugehörigkeit.",
+    "why": "Echte Aufgaben zeigen dem Kind, dass es gebraucht wird, und üben nebenbei Ordnen und Geschick.",
+    "principle": "Übungen des täglichen Lebens: echte Aufgaben fördern Selbstständigkeit und Konzentration (Montessori-Pädagogik)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-fingermalen",
+    "title": "Fingermalen",
+    "kind": "basteln",
+    "area": "feinmotorik",
+    "fromMonth": 15,
+    "toMonth": 48,
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 1,
+    "materials": [
+     "farbe",
+     "papier"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Ungiftige Fingerfarbe, großes Papier, Kittel",
+    "steps": [
+     "Tisch abdecken, Kittel an.",
+     "Wenig Farbe auf das Papier, mit Fingern und Händen verteilen.",
+     "Benennen, was entsteht: Spuren, Punkte, Farben mischen."
+    ],
+    "learns": "Tasten, Farben, Finger einzeln einsetzen.",
+    "why": "Mit den Händen malen verbindet Tastsinn und Bewegung und braucht noch keine Stiftführung.",
+    "principle": "Sensomotorisches Lernen: Kleinkinder begreifen die Welt über Sinne und Bewegung (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-einstecken",
+    "title": "Ein- und ausstecken",
+    "kind": "spiel",
+    "area": "feinmotorik",
     "fromMonth": 15,
     "toMonth": 36,
-    "material": "",
-    "text": "Immer dasselbe kurze Lied zum Aufräumen singen. Das macht den Übergang leichter."
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Dose mit Schlitz und Bierdeckel oder Wäscheklammern und Becherrand",
+    "steps": [
+     "Deckel einer Dose mit einem Schlitz versehen.",
+     "Bierdeckel oder große Knöpfe (über 3 cm) einwerfen lassen.",
+     "Später Wäscheklammern an einen Becherrand stecken."
+    ],
+    "learns": "Pinzettengriff, Hand drehen, Kraft in den Fingern.",
+    "why": "Kleine, gezielte Bewegungen trainieren die Finger für Stift und Besteck.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
+   },
+   {
+    "id": "k-pfuetzen",
+    "title": "Pfützen springen",
+    "kind": "ausflug",
+    "area": "grobmotorik",
+    "fromMonth": 18,
+    "toMonth": 60,
+    "minutes": 20,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "Gummistiefel, Matschhose",
+    "steps": [
+     "Nach dem Regen raus.",
+     "Mit Anlauf in die Pfütze, große und kleine Spritzer.",
+     "Ältere Kinder springen beidbeinig oder von Pfütze zu Pfütze."
+    ],
+    "learns": "Springen, Gleichgewicht, Freude an Bewegung draußen.",
+    "why": "Draußen bei jedem Wetter bewegen sich Kinder mehr und vielfältiger als drinnen.",
+    "principle": "Bewegung: Die WHO empfiehlt für Kinder von 1 bis 4 Jahren mindestens 180 Minuten Bewegung am Tag (2019)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-knete",
     "title": "Knete selbst machen",
     "kind": "basteln",
-    "area": "motorik",
+    "area": "feinmotorik",
     "fromMonth": 24,
     "toMonth": 60,
-    "material": "Mehl, Salz, Wasser, etwas Öl, Lebensmittelfarbe",
-    "text": "Zwei Tassen Mehl, eine Tasse Salz, etwa eine Tasse Wasser und ein Löffel Öl verkneten. Gemeinsam färben und formen."
+    "minutes": 30,
+    "place": "drinnen",
+    "prep": 1,
+    "materials": [
+     "kueche",
+     "knete"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Zwei Tassen Mehl, eine Tasse Salz, etwa eine Tasse Wasser, ein Löffel Öl, Lebensmittelfarbe",
+    "steps": [
+     "Gemeinsam abmessen und verkneten, das Kind darf schütten und rühren.",
+     "Färben und Kugeln, Würste, Fladen formen.",
+     "In einer Dose aufbewahren, hält einige Tage."
+    ],
+    "learns": "Kraft in Händen und Fingern, Formen, Mengen.",
+    "why": "Kneten, Rollen und Drücken kräftigen die Handmuskeln, die später den Stift führen.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-reissbild",
     "title": "Reißbild kleben",
     "kind": "basteln",
-    "area": "motorik",
+    "area": "feinmotorik",
     "fromMonth": 24,
     "toMonth": 48,
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "papier",
+     "kleber"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Buntpapier, Klebestift, Papier",
-    "text": "Papier in Stücke reißen und auf eine vorgezeichnete Form kleben. Reißen trainiert die Finger."
+    "steps": [
+     "Buntpapier in Streifen geben, das Kind reißt kleine Stücke.",
+     "Eine einfache Form vorzeichnen, zum Beispiel einen Baum.",
+     "Stücke aufkleben."
+    ],
+    "learns": "Beidhändiges Arbeiten, Fingerkraft, kleben.",
+    "why": "Reißen verlangt, dass beide Hände gegeneinander arbeiten, eine Vorstufe zum Schneiden.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-farben-sortieren",
     "title": "Farben sortieren",
     "kind": "spiel",
-    "area": "denken",
+    "area": "kognition",
     "fromMonth": 24,
     "toMonth": 42,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "bausteine",
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Bausteine, Schalen in passenden Farben",
-    "text": "Bausteine nach Farben in Schalen sortieren und dabei die Farben benennen."
+    "steps": [
+     "Zwei Farben vorgeben: Alle roten hierher, alle blauen dorthin.",
+     "Farben benennen, ohne abzufragen.",
+     "Mehr Farben, wenn es leicht fällt."
+    ],
+    "learns": "Farben unterscheiden und benennen, ordnen.",
+    "why": "Sortieren nach einem Merkmal ist ein früher Schritt zum Kategorisieren.",
+    "principle": "Klassifizieren: Dinge nach Merkmalen ordnen ist eine Grundlage des Denkens (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-seil-balancieren",
     "title": "Auf dem Seil balancieren",
-    "kind": "uebung",
-    "area": "motorik",
+    "kind": "bewegung",
+    "area": "grobmotorik",
     "fromMonth": 24,
-    "toMonth": 48,
+    "toMonth": 54,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "seil"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Seil oder Klebeband am Boden",
-    "text": "Ein Seil auf den Boden legen und darauf entlanggehen, vorwärts, später rückwärts."
+    "steps": [
+     "Seil gerade auf den Boden legen.",
+     "Darauf entlanggehen, Arme zur Seite.",
+     "Später Kurven legen oder rückwärts gehen."
+    ],
+    "learns": "Gleichgewicht, Körperspannung, Konzentration.",
+    "why": "Balancieren auf einer Linie verlangt feine Abstimmung von Augen, Gleichgewichtssinn und Muskeln.",
+    "principle": "Bewegung: Die WHO empfiehlt für Kinder von 1 bis 4 Jahren mindestens 180 Minuten Bewegung am Tag (2019)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-wimmelbuch",
     "title": "Was passiert auf dem Bild?",
-    "kind": "spiel",
+    "kind": "sprache",
     "area": "sprache",
     "fromMonth": 24,
-    "toMonth": 48,
+    "toMonth": 54,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "buecher"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Wimmelbuch",
-    "text": "Fragen stellen: Wer ist da? Was macht der? Was passiert gleich? Das Kind erzählt, du hörst zu."
+    "steps": [
+     "Offene Fragen: „Was macht der Mann da?“",
+     "Antworten aufgreifen und erweitern: Kind sagt „Auto“, du sagst „Ja, das rote Auto fährt schnell.“",
+     "Das Kind erzählt, du hörst zu."
+    ],
+    "learns": "Sätze bilden, beschreiben, Wortschatz.",
+    "why": "Wenn Erwachsene Antworten aufgreifen und erweitern, sprechen Kinder mehr und in längeren Sätzen.",
+    "principle": "Dialogisches Lesen: Das Kind wird beim Vorlesen zum Erzähler (Whitehurst)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-tisch-decken",
     "title": "Tisch mit decken",
-    "kind": "uebung",
-    "area": "alltag",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 24,
     "toMonth": 60,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
     "material": "Bruchsicheres Geschirr",
-    "text": "Teller, Löffel und Becher für alle verteilen. Das übt Zählen und Zuordnen nebenbei."
+    "steps": [
+     "Für jede Person einen Teller, einen Löffel, einen Becher.",
+     "Das Kind verteilt, du fragst: „Hat jeder einen?“",
+     "Ältere Kinder decken allein nach Plan."
+    ],
+    "learns": "Eins-zu-eins-Zuordnung, Mitverantwortung.",
+    "why": "Jedem Platz genau einen Teller zuordnen ist die Grundlage des Zählens.",
+    "principle": "Zahlbegriff: Eins-zu-eins-Zuordnung als Grundlage des Zählens (Gelman & Gallistel)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-selbst-anziehen",
     "title": "Selbst anziehen üben",
-    "kind": "uebung",
-    "area": "alltag",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
     "fromMonth": 24,
-    "toMonth": 48,
+    "toMonth": 54,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
     "material": "Weite Kleidung, Hosen mit Gummizug",
-    "text": "Kleidung in der richtigen Reihenfolge hinlegen. Viel Zeit einplanen, nur bei Bedarf helfen."
+    "steps": [
+     "Kleidung in der richtigen Reihenfolge hinlegen.",
+     "Viel Zeit einplanen; nur bei Bedarf helfen.",
+     "Trick für Jacken: Jacke vor sich legen, Arme rein, über den Kopf."
+    ],
+    "learns": "Selbstständigkeit, Reihenfolgen, Geschick.",
+    "why": "Wer selbst etwas schafft, traut sich mehr zu.",
+    "principle": "Selbstwirksamkeit: Die Erfahrung „Ich kann das“ stärkt Motivation und Ausdauer (Bandura)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-kaufladen",
@@ -991,178 +3109,1127 @@
     "area": "sozial",
     "fromMonth": 30,
     "toMonth": 72,
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "karton"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
     "material": "Leere Verpackungen, Korb, Spielgeld",
-    "text": "Abwechselnd Verkäufer und Kunde sein. Rollen tauschen übt, sich in andere hineinzuversetzen."
+    "steps": [
+     "Leere Verpackungen als Ware aufbauen.",
+     "Abwechselnd Verkäufer und Kunde sein.",
+     "Ältere Kinder zählen Geld oder schreiben Einkaufszettel."
+    ],
+    "learns": "Rollen übernehmen, Höflichkeitsformen, Zählen.",
+    "why": "Rollenspiele fordern, sich in andere hineinzuversetzen und Regeln einzuhalten.",
+    "principle": "Symbolspiel: Im So-tun-als-ob üben Kinder Vorstellung, Sprache und Rollen (Piaget, Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
-    "id": "k-schneiden",
-    "title": "Schneiden üben",
-    "kind": "basteln",
-    "area": "motorik",
-    "fromMonth": 30,
-    "toMonth": 60,
-    "material": "Kinderschere, Papierstreifen",
-    "text": "Mit schmalen Streifen beginnen, die mit einem Schnitt durch sind. Später an Linien entlang schneiden."
-   },
-   {
-    "id": "k-backen",
-    "title": "Zusammen backen",
-    "kind": "uebung",
-    "area": "alltag",
-    "fromMonth": 30,
-    "toMonth": 72,
-    "material": "Einfaches Rezept, z. B. Kekse",
-    "text": "Abwiegen, rühren, ausstechen: Das Kind darf alles machen, was ohne Ofen und Messer geht."
-   },
-   {
-    "id": "k-memory",
-    "title": "Memory",
-    "kind": "spiel",
-    "area": "denken",
-    "fromMonth": 36,
-    "toMonth": 72,
-    "material": "Memory, anfangs mit wenigen Paaren",
-    "text": "Mit sechs bis acht Paaren beginnen und mehr dazunehmen, wenn es leicht fällt."
-   },
-   {
-    "id": "k-was-fehlt",
-    "title": "Was fehlt?",
-    "kind": "spiel",
-    "area": "denken",
-    "fromMonth": 36,
-    "toMonth": 72,
-    "material": "Fünf Alltagsgegenstände, Tuch",
-    "text": "Gegenstände anschauen, zudecken, einen heimlich wegnehmen. Welcher fehlt?"
-   },
-   {
-    "id": "k-reime",
-    "title": "Reime finden",
-    "kind": "spiel",
+    "id": "k-dialog-lesen",
+    "title": "Dialogisch vorlesen",
+    "kind": "sprache",
     "area": "sprache",
-    "fromMonth": 36,
+    "fromMonth": 24,
     "toMonth": 72,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "buecher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Ein Bilderbuch, das das Kind kennt",
+    "steps": [
+     "Nicht nur vorlesen, sondern Fragen stellen: „Was denkst du, was passiert jetzt?“",
+     "Antworten loben und erweitern.",
+     "Beim dritten Mal erzählt das Kind die Geschichte, du hilfst."
+    ],
+    "learns": "Erzählen, längere Sätze, Wortschatz, Fantasie.",
+    "why": "Kinder, die beim Vorlesen aktiv erzählen, machen messbare Fortschritte im Wortschatz.",
+    "principle": "Dialogisches Lesen: Das Kind wird beim Vorlesen zum Erzähler (Whitehurst)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-huepfen",
+    "title": "Hüpfspiele",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 24,
+    "toMonth": 60,
+    "minutes": 10,
+    "place": "beides",
+    "prep": 0,
+    "materials": [
+     "kissen",
+     "kreide"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Kissen oder Kreidekreise",
+    "steps": [
+     "Kissen oder Kreidekreise im Abstand auslegen.",
+     "Beidbeinig von einem zum nächsten hüpfen.",
+     "Ältere Kinder: Himmel und Hölle, einbeinig."
+    ],
+    "learns": "Springen mit beiden Beinen, Gleichgewicht, Sprungkraft.",
+    "why": "Mit zwei bis drei Jahren lernen viele Kinder, mit beiden Beinen abzuspringen.",
+    "principle": "Bewegung: Die WHO empfiehlt für Kinder von 1 bis 4 Jahren mindestens 180 Minuten Bewegung am Tag (2019)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-perlen",
+    "title": "Große Perlen auffädeln",
+    "kind": "basteln",
+    "area": "feinmotorik",
+    "fromMonth": 30,
+    "toMonth": 66,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "perlen"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Große Holzperlen, Schnürsenkel mit festem Ende",
+    "steps": [
+     "Knoten ans Ende, das andere Ende ist fest.",
+     "Perlen auffädeln, eine nach der anderen.",
+     "Später ein Muster: rot, blau, rot, blau."
+    ],
+    "learns": "Beide Hände koordinieren, Pinzettengriff, Muster.",
+    "why": "Fädeln verlangt, dass eine Hand hält und die andere führt, wie später beim Schreiben und Schneiden.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
+   },
+   {
+    "id": "k-stopptanz",
+    "title": "Stopptanz",
+    "kind": "bewegung",
+    "area": "kognition",
+    "fromMonth": 30,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "musik"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
     "material": "",
-    "text": "Ein Wort sagen, das Kind sucht ein Wort, das sich reimt: Haus, Maus, raus. Quatschwörter zählen auch."
-   },
-   {
-    "id": "k-blaetter-durchreiben",
-    "title": "Blätter durchreiben",
-    "kind": "basteln",
-    "area": "denken",
-    "fromMonth": 36,
-    "toMonth": 72,
-    "material": "Blätter, dünnes Papier, Wachsmalstifte",
-    "text": "Blätter unter das Papier legen und mit der Seite des Stifts darüberreiben. Die Adern erscheinen."
-   },
-   {
-    "id": "k-kresse",
-    "title": "Kresse säen",
-    "kind": "basteln",
-    "area": "denken",
-    "fromMonth": 36,
-    "toMonth": 72,
-    "material": "Kressesamen, Watte, flache Schale",
-    "text": "Samen auf feuchte Watte streuen, jeden Tag schauen und gießen. Nach ein paar Tagen wird geerntet."
+    "steps": [
+     "Musik an, alle tanzen.",
+     "Musik aus: Alle erstarren.",
+     "Varianten: bei Stopp auf ein Bein, oder umgekehrte Regel."
+    ],
+    "learns": "Impulskontrolle, Zuhören, Regeln einhalten.",
+    "why": "Mitten in der Bewegung stoppen trainiert die Fähigkeit, einen Impuls zu bremsen.",
+    "principle": "Exekutive Funktionen: Arbeitsgedächtnis, Impulskontrolle und gedankliche Flexibilität (Diamond)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-gefuehle",
     "title": "Gefühle-Gesichter",
     "kind": "spiel",
     "area": "sozial",
+    "fromMonth": 30,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "papier",
+     "stifte"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Bilder von Gesichtern oder selbst gemalte Karten",
+    "steps": [
+     "Gesichter anschauen und nachmachen: fröhlich, traurig, wütend, überrascht.",
+     "Fragen: „Wann hast du dich so gefühlt?“",
+     "Im Alltag benennen: „Du bist wütend, weil der Turm umgefallen ist.“"
+    ],
+    "learns": "Gefühle erkennen und benennen.",
+    "why": "Wer ein Wort für ein Gefühl hat, kann es leichter regulieren.",
+    "principle": "Co-Regulation: Kinder lernen Gefühle zu regulieren, indem Erwachsene sie dabei begleiten",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-haende-waschen",
+    "title": "Hände waschen allein",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 24,
+    "toMonth": 48,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "Hocker am Waschbecken",
+    "steps": [
+     "Hocker so stellen, dass das Kind sicher steht.",
+     "Abläufe zeigen: nass, Seife, reiben, abspülen, abtrocknen.",
+     "Ein Lied zum Reiben (etwa 20 Sekunden)."
+    ],
+    "learns": "Abläufe in der richtigen Reihenfolge, Hygiene.",
+    "why": "Feste Reihenfolgen helfen beim Planen; selbst machen stärkt das Selbstvertrauen.",
+    "principle": "Übungen des täglichen Lebens: echte Aufgaben fördern Selbstständigkeit und Konzentration (Montessori-Pädagogik)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-geraeusche-raten",
+    "title": "Geräusche raten",
+    "kind": "sinne",
+    "area": "kognition",
+    "fromMonth": 24,
+    "toMonth": 60,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "toepfe",
+     "becher"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Alltagsdinge, die Geräusche machen",
+    "steps": [
+     "Kind schließt die Augen.",
+     "Du machst ein Geräusch: Schlüssel, Papier knistern, Wasser gießen.",
+     "Raten, dann Rollen tauschen."
+    ],
+    "learns": "Genau hinhören, Geräusche zuordnen, abwechseln.",
+    "why": "Gezieltes Hören ist eine Grundlage für Sprache und Aufmerksamkeit.",
+    "principle": "Phonologische Bewusstheit: Laute, Silben und Reime hören zu können erleichtert später das Lesen",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-schneiden",
+    "title": "Schneiden üben",
+    "kind": "basteln",
+    "area": "feinmotorik",
+    "fromMonth": 30,
+    "toMonth": 60,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "schere",
+     "papier"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Kinderschere, Papierstreifen",
+    "steps": [
+     "Daumen oben ins kleine Loch, „der Daumen schaut zur Decke“.",
+     "Mit schmalen Streifen beginnen, die mit einem Schnitt durch sind.",
+     "Später an geraden, dann an gebogenen Linien entlang."
+    ],
+    "learns": "Schere öffnen und schließen, beide Hände koordinieren.",
+    "why": "Schneiden verlangt, dass eine Hand führt und die andere das Papier dreht.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "Kinderschere mit runder Spitze, Schneiden nur im Sitzen.",
+    "text": ""
+   },
+   {
+    "id": "k-backen",
+    "title": "Zusammen backen",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 24,
+    "toMonth": 72,
+    "minutes": 45,
+    "place": "drinnen",
+    "prep": 2,
+    "materials": [
+     "kueche"
+    ],
+    "group": [
+     "eins",
+     "geschwister"
+    ],
+    "material": "Einfaches Rezept, z. B. Kekse",
+    "steps": [
+     "Zutaten gemeinsam abwiegen und zählen: „Drei Eier.“",
+     "Das Kind rührt, knetet, sticht aus.",
+     "Warten bis sie fertig sind, gehört dazu."
+    ],
+    "learns": "Mengen, Reihenfolgen, Geduld, Stolz auf Ergebnis.",
+    "why": "Rezepte sind echte Aufgaben mit klarer Reihenfolge und sichtbarem Ergebnis.",
+    "principle": "Übungen des täglichen Lebens: echte Aufgaben fördern Selbstständigkeit und Konzentration (Montessori-Pädagogik)",
+    "easier": "",
+    "harder": "",
+    "safety": "Ofen, Herd und Messer bleiben bei Erwachsenen.",
+    "text": ""
+   },
+   {
+    "id": "k-memory",
+    "title": "Memory",
+    "kind": "spiel",
+    "area": "kognition",
     "fromMonth": 36,
     "toMonth": 72,
-    "material": "Bilder von Gesichtern oder selbst gemalte Karten",
-    "text": "Gesichter nachmachen und benennen: fröhlich, traurig, wütend, überrascht. Wann hast du dich so gefühlt?"
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "spiele"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "Memory, anfangs mit wenigen Paaren",
+    "steps": [
+     "Mit sechs bis acht Paaren offen beginnen: Paare finden.",
+     "Dann umgedreht spielen.",
+     "Mehr Paare, wenn es leicht fällt."
+    ],
+    "learns": "Merken, Abwechseln, Verlieren aushalten.",
+    "why": "Memory trainiert das Arbeitsgedächtnis, eine der exekutiven Funktionen.",
+    "principle": "Exekutive Funktionen: Arbeitsgedächtnis, Impulskontrolle und gedankliche Flexibilität (Diamond)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-was-fehlt",
+    "title": "Was fehlt?",
+    "kind": "spiel",
+    "area": "kognition",
+    "fromMonth": 36,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "tuch",
+     "figuren"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Fünf Alltagsgegenstände, Tuch",
+    "steps": [
+     "Gegenstände anschauen und benennen.",
+     "Zudecken, heimlich einen wegnehmen.",
+     "Aufdecken: Was fehlt? Dann tauschen."
+    ],
+    "learns": "Aufmerksamkeit, Merkfähigkeit, Wörter.",
+    "why": "Sich mehrere Dinge gleichzeitig merken fordert das Arbeitsgedächtnis.",
+    "principle": "Exekutive Funktionen: Arbeitsgedächtnis, Impulskontrolle und gedankliche Flexibilität (Diamond)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-reime",
+    "title": "Reime finden",
+    "kind": "sprache",
+    "area": "sprache",
+    "fromMonth": 36,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Ein Wort sagen, das Kind sucht ein Reimwort: Haus, Maus, raus.",
+     "Quatschwörter zählen auch.",
+     "Reime in Büchern betonen und eine Pause vor dem Reimwort lassen."
+    ],
+    "learns": "Auf den Klang von Wörtern achten.",
+    "why": "Reime zu hören ist eine Vorstufe des Lesenlernens.",
+    "principle": "Phonologische Bewusstheit: Laute, Silben und Reime hören zu können erleichtert später das Lesen",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-silben-klatschen",
+    "title": "Silben klatschen",
+    "kind": "sprache",
+    "area": "sprache",
+    "fromMonth": 36,
+    "toMonth": 72,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "",
+    "steps": [
+     "Namen in Silben klatschen: Ma-ri-a.",
+     "Wer hat den längsten Namen?",
+     "Später Tiere und Dinge klatschen."
+    ],
+    "learns": "Wörter in Silben zerlegen.",
+    "why": "Silben hören ist eine der ersten Stufen der phonologischen Bewusstheit.",
+    "principle": "Phonologische Bewusstheit: Laute, Silben und Reime hören zu können erleichtert später das Lesen",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-blaetter-durchreiben",
+    "title": "Blätter durchreiben",
+    "kind": "basteln",
+    "area": "kognition",
+    "fromMonth": 36,
+    "toMonth": 72,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "natur",
+     "papier",
+     "stifte"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Blätter, dünnes Papier, Wachsmalstifte",
+    "steps": [
+     "Blätter mit der Aderseite nach oben unter das Papier legen.",
+     "Mit der Seite des Stifts darüberreiben.",
+     "Vergleichen: Welches Blatt gehört zu welchem Abdruck?"
+    ],
+    "learns": "Genau beobachten, vergleichen, Druck dosieren.",
+    "why": "Das Unsichtbare sichtbar machen weckt Neugier auf Formen in der Natur.",
+    "principle": "Draußen spielen und Natur erkunden fördert Bewegung, Neugier und Ausdauer",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-kresse",
+    "title": "Kresse säen",
+    "kind": "basteln",
+    "area": "kognition",
+    "fromMonth": 36,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "samen",
+     "wasser"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Kressesamen, Watte, flache Schale",
+    "steps": [
+     "Samen auf feuchte Watte streuen.",
+     "Jeden Tag schauen und gießen, vielleicht ein Foto machen.",
+     "Nach ein paar Tagen ernten und aufs Brot."
+    ],
+    "learns": "Geduld, Veränderung beobachten, Verantwortung.",
+    "why": "Wachstum über Tage zu verfolgen übt Zeitverständnis und Fürsorge.",
+    "principle": "Draußen spielen und Natur erkunden fördert Bewegung, Neugier und Ausdauer",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-parcours-draussen",
     "title": "Hindernisparcours draußen",
-    "kind": "uebung",
-    "area": "motorik",
-    "fromMonth": 36,
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 30,
     "toMonth": 72,
-    "material": "Seil, Eimer, Kissen, Kreide",
-    "text": "Drüber steigen, drunter krabbeln, auf Kreidepunkte springen. Das Kind darf den Parcours mitgestalten."
+    "minutes": 20,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [
+     "seil",
+     "kreide"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "Seil, Eimer, Kreide",
+    "steps": [
+     "Stationen bauen: drüber steigen, drunter krabbeln, auf Kreidepunkte springen.",
+     "Das Kind darf eine Station erfinden.",
+     "Später auf Zeit oder rückwärts."
+    ],
+    "learns": "Vielfältige Bewegungen, Planen, Mut.",
+    "why": "Verschiedene Bewegungen hintereinander fordern Koordination und Planung.",
+    "principle": "Bewegung: Die WHO empfiehlt für Kinder von 1 bis 4 Jahren mindestens 180 Minuten Bewegung am Tag (2019)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-ball-fangen",
     "title": "Ball fangen",
-    "kind": "uebung",
-    "area": "motorik",
+    "kind": "bewegung",
+    "area": "grobmotorik",
+    "fromMonth": 30,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "beides",
+    "prep": 0,
+    "materials": [
+     "ball"
+    ],
+    "group": [
+     "eins",
+     "geschwister"
+    ],
+    "material": "Großer, leichter Ball",
+    "steps": [
+     "Aus einem Meter Entfernung zuwerfen, Arme des Kindes vorgestreckt.",
+     "Abstand langsam vergrößern.",
+     "Später kleiner Ball und aufprallen lassen."
+    ],
+    "learns": "Auge-Hand-Koordination, Reaktion.",
+    "why": "Fangen verlangt, die Flugbahn vorauszusehen und Hände rechtzeitig zu bewegen.",
+    "principle": "Zone der nächsten Entwicklung: Mit etwas Hilfe gelingt, was allein noch nicht klappt (Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-laufrad",
+    "title": "Laufrad oder Roller",
+    "kind": "ausflug",
+    "area": "grobmotorik",
+    "fromMonth": 24,
+    "toMonth": 72,
+    "minutes": 30,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [
+     "fahrzeug"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Laufrad oder Roller, Helm",
+    "steps": [
+     "Auf ebenem Weg ohne Verkehr üben.",
+     "Erst laufen mit dem Rad, dann längere Strecken rollen.",
+     "Bremsen von Anfang an üben."
+    ],
+    "learns": "Gleichgewicht, Ausdauer, Selbstvertrauen.",
+    "why": "Auf dem Laufrad lernen Kinder das Gleichgewicht, das später das Radfahren leicht macht.",
+    "principle": "Bewegung: Die WHO empfiehlt für Kinder von 1 bis 4 Jahren mindestens 180 Minuten Bewegung am Tag (2019)",
+    "easier": "",
+    "harder": "",
+    "safety": "Nur abseits von Straßen, mit Helm auf Laufrad und Roller.",
+    "text": ""
+   },
+   {
+    "id": "k-arzt-spielen",
+    "title": "Arzt spielen",
+    "kind": "spiel",
+    "area": "sozial",
     "fromMonth": 36,
     "toMonth": 72,
-    "material": "Großer, leichter Ball",
-    "text": "Aus kurzer Entfernung zuwerfen, Abstand langsam vergrößern."
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "figuren"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "Kuscheltiere, Pflaster, Tuch als Verband",
+    "steps": [
+     "Kuscheltiere werden krank, das Kind ist die Ärztin.",
+     "Mitspielen: „Mein Hase hat Bauchweh.“",
+     "Gut vor Arztterminen, um Ängste anzusprechen."
+    ],
+    "learns": "Rollen, Fürsorge, Ängste verarbeiten.",
+    "why": "Im Rollenspiel verarbeiten Kinder Erlebnisse und üben Perspektivwechsel.",
+    "principle": "Symbolspiel: Im So-tun-als-ob üben Kinder Vorstellung, Sprache und Rollen (Piaget, Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-brot-schmieren",
+    "title": "Brot selbst schmieren",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 36,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kueche"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Stumpfes Messer, Brot, Aufstrich",
+    "steps": [
+     "Brot auf ein Brett legen, das nicht rutscht.",
+     "Zeigen: Messer flach, von der Mitte nach außen.",
+     "Kind schmiert selbst, Löcher im Brot sind normal."
+    ],
+    "learns": "Werkzeug benutzen, Selbstständigkeit.",
+    "why": "Echte Werkzeuge im Alltag fordern Feinmotorik und stärken das Zutrauen.",
+    "principle": "Übungen des täglichen Lebens: echte Aufgaben fördern Selbstständigkeit und Konzentration (Montessori-Pädagogik)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-zaehlen-alltag",
+    "title": "Zählen im Alltag",
+    "kind": "alltag",
+    "area": "kognition",
+    "fromMonth": 30,
+    "toMonth": 72,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "",
+    "steps": [
+     "Beim Treppensteigen Stufen zählen.",
+     "Beim Tischdecken: „Wir brauchen vier Löffel.“",
+     "Auf jedes Ding nur einmal zeigen."
+    ],
+    "learns": "Zahlwörter, Eins-zu-eins-Zuordnung, Mengen.",
+    "why": "Zählen heißt mehr als Aufsagen: Jedes Ding bekommt genau eine Zahl.",
+    "principle": "Zahlbegriff: Eins-zu-eins-Zuordnung als Grundlage des Zählens (Gelman & Gallistel)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-storch",
     "title": "Storch-Spiel",
-    "kind": "uebung",
-    "area": "motorik",
+    "kind": "bewegung",
+    "area": "grobmotorik",
     "fromMonth": 42,
     "toMonth": 72,
+    "minutes": 5,
+    "place": "beides",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
     "material": "",
-    "text": "Wer kann am längsten wie ein Storch auf einem Bein stehen? Beide Beine ausprobieren."
+    "steps": [
+     "Wer kann am längsten auf einem Bein stehen?",
+     "Beide Beine ausprobieren.",
+     "Schwerer mit geschlossenen Augen."
+    ],
+    "learns": "Gleichgewicht, Körperspannung.",
+    "why": "Einbeinstand verlangt feine Abstimmung zwischen Gleichgewichtssinn und Muskeln.",
+    "principle": "Bewegung: Die WHO empfiehlt für Kinder von 1 bis 4 Jahren mindestens 180 Minuten Bewegung am Tag (2019)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-brettspiel",
     "title": "Erstes Brettspiel",
     "kind": "spiel",
     "area": "sozial",
-    "fromMonth": 42,
+    "fromMonth": 36,
     "toMonth": 72,
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "spiele"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
     "material": "Einfaches Würfelspiel",
-    "text": "Würfeln, zählen, warten und auch mal verlieren: Das alles übt ein einfaches Brettspiel."
+    "steps": [
+     "Ein einfaches Würfelspiel mit Farben oder Augenzahlen.",
+     "Abwechseln, Würfelpunkte zählen.",
+     "Verlieren ist erlaubt; Gefühle benennen."
+    ],
+    "learns": "Regeln, Abwechseln, Zählen, Frust aushalten.",
+    "why": "Regelspiele üben Impulskontrolle und den Umgang mit Gewinnen und Verlieren.",
+    "principle": "Exekutive Funktionen: Arbeitsgedächtnis, Impulskontrolle und gedankliche Flexibilität (Diamond)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-zahlen-suchen",
     "title": "Zahlen unterwegs suchen",
-    "kind": "spiel",
-    "area": "denken",
+    "kind": "ausflug",
+    "area": "kognition",
     "fromMonth": 48,
     "toMonth": 72,
+    "minutes": 15,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
     "material": "",
-    "text": "Auf Hausnummern, Schildern und Kennzeichen nach Zahlen suchen. Wer findet die Drei?"
+    "steps": [
+     "Auf Hausnummern, Schildern, Kennzeichen nach Zahlen suchen.",
+     "Wer findet die Drei?",
+     "Später kleine Rechnungen: Wie viele Autos sind rot?"
+    ],
+    "learns": "Zahlen erkennen, Mengen vergleichen.",
+    "why": "Zahlen im echten Leben zu finden macht sie bedeutsam.",
+    "principle": "Zahlbegriff: Eins-zu-eins-Zuordnung als Grundlage des Zählens (Gelman & Gallistel)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-geschichte",
     "title": "Geschichte weitererzählen",
-    "kind": "spiel",
+    "kind": "sprache",
     "area": "sprache",
-    "fromMonth": 48,
+    "fromMonth": 42,
     "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
     "material": "",
-    "text": "Einen Satz anfangen, das Kind erzählt weiter, dann wieder du. So entsteht eine gemeinsame Geschichte."
+    "steps": [
+     "Einen Satz anfangen: „Es war einmal ein Igel, der …“",
+     "Das Kind erzählt weiter, dann wieder du.",
+     "Am Ende darf es ein Bild dazu malen."
+    ],
+    "learns": "Erzählen, Zusammenhänge, Fantasie.",
+    "why": "Zusammenhängendes Erzählen ist eine wichtige Vorläuferfähigkeit für Lesen und Schreiben.",
+    "principle": "Zone der nächsten Entwicklung: Mit etwas Hilfe gelingt, was allein noch nicht klappt (Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-name-spuren",
     "title": "Namen nachspuren",
-    "kind": "uebung",
-    "area": "denken",
+    "kind": "basteln",
+    "area": "kognition",
     "fromMonth": 48,
     "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "papier",
+     "stifte"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Papier, Stifte",
-    "text": "Den Namen groß vorschreiben, das Kind fährt die Buchstaben nach. Mit dem ersten Buchstaben beginnen."
+    "steps": [
+     "Den Namen groß vorschreiben, Großbuchstaben.",
+     "Das Kind fährt die Buchstaben nach.",
+     "Mit dem ersten Buchstaben beginnen und ihn überall entdecken."
+    ],
+    "learns": "Buchstaben erkennen, Stiftführung.",
+    "why": "Der eigene Name ist für viele Kinder der Einstieg in die Schrift.",
+    "principle": "Zone der nächsten Entwicklung: Mit etwas Hilfe gelingt, was allein noch nicht klappt (Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-schatzsuche",
     "title": "Schatzsuche mit Karte",
     "kind": "spiel",
-    "area": "denken",
+    "area": "kognition",
     "fromMonth": 48,
     "toMonth": 72,
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 1,
+    "materials": [
+     "papier",
+     "stifte"
+    ],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
     "material": "Papier, Stift, ein kleiner Schatz",
-    "text": "Eine einfache Karte der Wohnung zeichnen und das Versteck mit einem Kreuz markieren."
+    "steps": [
+     "Eine einfache Karte der Wohnung zeichnen, Versteck mit Kreuz.",
+     "Gemeinsam die Karte lesen: Wo ist das Sofa?",
+     "Später versteckt das Kind und malt die Karte."
+    ],
+    "learns": "Raumvorstellung, Symbole verstehen.",
+    "why": "Eine Karte ist ein Symbol für einen echten Raum; das zu verstehen ist ein großer Denkschritt.",
+    "principle": "Symbolspiel: Im So-tun-als-ob üben Kinder Vorstellung, Sprache und Rollen (Piaget, Wygotski)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
    },
    {
     "id": "k-falten",
     "title": "Papier falten",
     "kind": "basteln",
-    "area": "motorik",
-    "fromMonth": 54,
+    "area": "feinmotorik",
+    "fromMonth": 48,
     "toMonth": 72,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "papier"
+    ],
+    "group": [
+     "eins"
+    ],
     "material": "Quadratisches Papier",
-    "text": "Mit einfachen Faltungen beginnen: Hut, Becher oder Schiff. Kanten gemeinsam scharf streichen."
+    "steps": [
+     "Mit einfachen Faltungen beginnen: Hut, Becher, Schiff.",
+     "Kanten gemeinsam scharf streichen.",
+     "Schritt für Schritt vormachen, nicht alles auf einmal."
+    ],
+    "learns": "Genauigkeit, Reihenfolgen merken, Fingerkraft.",
+    "why": "Faltanleitungen verlangen genaue Bewegungen in der richtigen Reihenfolge.",
+    "principle": "Handgeschicklichkeit entwickelt sich vom ganzen Arm zu den Fingern, vom Faustgriff zum Pinzettengriff",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-ich-sehe",
+    "title": "Ich sehe was, was du nicht siehst",
+    "kind": "sprache",
+    "area": "kognition",
+    "fromMonth": 42,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "beides",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "",
+    "steps": [
+     "„Ich sehe was, was du nicht siehst, und das ist rot.“",
+     "Raten, dann Rollen tauschen.",
+     "Später mit Anlauten: „… und das fängt mit M an.“"
+    ],
+    "learns": "Genau beobachten, Merkmale beschreiben, Anlaute hören.",
+    "why": "Das Spiel verbindet Aufmerksamkeit, Perspektivwechsel und erste Lautanalyse.",
+    "principle": "Phonologische Bewusstheit: Laute, Silben und Reime hören zu können erleichtert später das Lesen",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-messen-wiegen",
+    "title": "Messen und wiegen",
+    "kind": "alltag",
+    "area": "kognition",
+    "fromMonth": 48,
+    "toMonth": 72,
+    "minutes": 15,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "kueche"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Küchenwaage, Maßband",
+    "steps": [
+     "Dinge auf die Waage legen: Was ist schwerer, Apfel oder Banane?",
+     "Mit dem Maßband das Kind und Kuscheltiere messen.",
+     "Vorher schätzen, dann nachmessen."
+    ],
+    "learns": "Vergleichen, schätzen, Zahlen im Alltag.",
+    "why": "Schätzen und Nachprüfen ist der Kern des forschenden Denkens.",
+    "principle": "Klassifizieren: Dinge nach Merkmalen ordnen ist eine Grundlage des Denkens (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-streit-loesen",
+    "title": "Streit mit Worten lösen",
+    "kind": "alltag",
+    "area": "sozial",
+    "fromMonth": 42,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "",
+    "steps": [
+     "Im Streit erst beruhigen, dann jedes Kind erzählen lassen.",
+     "Gefühle beider Seiten benennen.",
+     "Fragen: „Was können wir jetzt machen?“ und Ideen der Kinder ausprobieren."
+    ],
+    "learns": "Gefühle äußern, zuhören, Lösungen finden.",
+    "why": "Kinder lernen Konfliktlösung, wenn Erwachsene sie begleiten statt entscheiden.",
+    "principle": "Co-Regulation: Kinder lernen Gefühle zu regulieren, indem Erwachsene sie dabei begleiten",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-wetter-beobachten",
+    "title": "Wetterforscher",
+    "kind": "ausflug",
+    "area": "kognition",
+    "fromMonth": 42,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [
+     "papier",
+     "stifte"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Papier für eine Wettertabelle",
+    "steps": [
+     "Jeden Morgen rausschauen: Sonne, Regen, Wind?",
+     "Mit einem Symbol in eine Tabelle malen.",
+     "Nach einer Woche zählen: Wie oft hat es geregnet?"
+    ],
+    "learns": "Beobachten, Symbole nutzen, zählen, Wochentage.",
+    "why": "Regelmäßige Beobachtung und Aufzeichnung sind erste Schritte wissenschaftlichen Denkens.",
+    "principle": "Klassifizieren: Dinge nach Merkmalen ordnen ist eine Grundlage des Denkens (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-muster-legen",
+    "title": "Muster legen und fortsetzen",
+    "kind": "spiel",
+    "area": "kognition",
+    "fromMonth": 42,
+    "toMonth": 72,
+    "minutes": 10,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [
+     "bausteine",
+     "natur"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Bausteine, Knöpfe oder Naturmaterial",
+    "steps": [
+     "Ein einfaches Muster legen: rot, blau, rot, blau.",
+     "Das Kind setzt es fort.",
+     "Schwerer: rot, rot, blau."
+    ],
+    "learns": "Regeln erkennen und fortführen.",
+    "why": "Muster zu erkennen ist eine Grundlage für Mathematik.",
+    "principle": "Klassifizieren: Dinge nach Merkmalen ordnen ist eine Grundlage des Denkens (Piaget)",
+    "easier": "",
+    "harder": "",
+    "safety": "Keine Kleinteile unter 3 cm in Reichweite: Verschluckungsgefahr.",
+    "text": ""
+   },
+   {
+    "id": "k-tagesablauf",
+    "title": "Bilder-Tagesplan",
+    "kind": "basteln",
+    "area": "selbststaendigkeit",
+    "fromMonth": 36,
+    "toMonth": 72,
+    "minutes": 20,
+    "place": "drinnen",
+    "prep": 1,
+    "materials": [
+     "papier",
+     "stifte"
+    ],
+    "group": [
+     "eins"
+    ],
+    "material": "Papier, Stifte, Fotos",
+    "steps": [
+     "Gemeinsam Bilder für den Morgen malen: aufstehen, anziehen, Zähne putzen, frühstücken.",
+     "In der richtigen Reihenfolge aufhängen.",
+     "Das Kind schaut selbst nach, was als Nächstes kommt."
+    ],
+    "learns": "Reihenfolgen, Zeitverständnis, Eigenständigkeit.",
+    "why": "Ein sichtbarer Plan entlastet das Gedächtnis und macht Kinder unabhängiger von Erinnerungen.",
+    "principle": "Exekutive Funktionen: Arbeitsgedächtnis, Impulskontrolle und gedankliche Flexibilität (Diamond)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-zaehne-putzen",
+    "title": "Zähne putzen mit Sanduhr",
+    "kind": "alltag",
+    "area": "selbststaendigkeit",
+    "fromMonth": 30,
+    "toMonth": 72,
+    "minutes": 5,
+    "place": "drinnen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins"
+    ],
+    "material": "Zahnputz-Sanduhr oder Lied",
+    "steps": [
+     "Das Kind putzt zuerst selbst, mit Sanduhr oder Lied.",
+     "Feste Reihenfolge: außen, innen, oben.",
+     "Danach putzt ein Erwachsener nach."
+    ],
+    "learns": "Selbstständige Körperpflege, Ausdauer.",
+    "why": "Eigenständig putzen übt Feinmotorik; das Nachputzen bleibt bis ins Schulalter wichtig.",
+    "principle": "Selbstwirksamkeit: Die Erfahrung „Ich kann das“ stärkt Motivation und Ausdauer (Bandura)",
+    "easier": "",
+    "harder": "",
+    "safety": "",
+    "text": ""
+   },
+   {
+    "id": "k-klettern",
+    "title": "Klettern auf dem Spielplatz",
+    "kind": "ausflug",
+    "area": "grobmotorik",
+    "fromMonth": 24,
+    "toMonth": 72,
+    "minutes": 30,
+    "place": "draussen",
+    "prep": 0,
+    "materials": [],
+    "group": [
+     "eins",
+     "geschwister",
+     "gruppe"
+    ],
+    "material": "",
+    "steps": [
+     "Klettergerüst, Leitern, Netze ausprobieren.",
+     "Nicht hochheben; das Kind klettert so weit, wie es selbst kommt.",
+     "Ermutigen, aber nicht drängen."
+    ],
+    "learns": "Kraft, Koordination, Risiko einschätzen.",
+    "why": "Kinder, die selbst klettern dürfen, lernen ihre Grenzen realistisch einzuschätzen.",
+    "principle": "Selbstwirksamkeit: Die Erfahrung „Ich kann das“ stärkt Motivation und Ausdauer (Bandura)",
+    "easier": "",
+    "harder": "",
+    "safety": "In Reichweite bleiben, solange das Kind unsicher ist.",
+    "text": ""
    }
   ]
  },
@@ -1171,7 +4238,7 @@
   "milestoneOverview": {
    "areas": [
     {
-     "area": "motorik",
+     "area": "grobmotorik",
      "items": [
       {
        "id": "m-kopf-heben",
@@ -1179,75 +4246,59 @@
        "toMonth": 4,
        "status": "done",
        "milestoneId": "demo-100",
-       "date": "2024-09-10"
-      },
-      {
-       "id": "m-greifen",
-       "fromMonth": 3,
-       "toMonth": 6,
-       "status": "done",
-       "milestoneId": "demo-103",
-       "date": "2024-11-16"
+       "date": "2024-09-14"
       },
       {
        "id": "m-drehen",
        "fromMonth": 4,
        "toMonth": 8,
        "status": "done",
-       "milestoneId": "demo-105",
-       "date": "2025-01-07"
+       "milestoneId": "demo-106",
+       "date": "2025-01-09"
       },
       {
        "id": "m-sitzen",
-       "fromMonth": 5,
+       "fromMonth": 4,
        "toMonth": 9,
        "status": "done",
-       "milestoneId": "demo-106",
-       "date": "2025-02-12"
+       "milestoneId": "demo-108",
+       "date": "2025-02-14"
       },
       {
        "id": "m-krabbeln",
-       "fromMonth": 6,
-       "toMonth": 12,
+       "fromMonth": 5,
+       "toMonth": 14,
        "status": "done",
-       "milestoneId": "demo-109",
-       "date": "2025-04-23"
+       "milestoneId": "demo-112",
+       "date": "2025-05-24"
       },
       {
        "id": "m-hochziehen",
-       "fromMonth": 7,
+       "fromMonth": 6,
        "toMonth": 12,
        "status": "done",
-       "milestoneId": "demo-111",
-       "date": "2025-04-11"
-      },
-      {
-       "id": "m-pinzettengriff",
-       "fromMonth": 8,
-       "toMonth": 12,
-       "status": "open",
-       "milestoneId": null,
-       "date": null
+       "milestoneId": "demo-114",
+       "date": "2025-04-01"
       },
       {
        "id": "m-stehen",
-       "fromMonth": 8,
+       "fromMonth": 7,
        "toMonth": 17,
        "status": "done",
-       "milestoneId": "demo-114",
-       "date": "2025-08-11"
+       "milestoneId": "demo-119",
+       "date": "2025-07-08"
       },
       {
        "id": "m-laufen",
-       "fromMonth": 9,
+       "fromMonth": 8,
        "toMonth": 18,
        "status": "done",
-       "milestoneId": "demo-115",
-       "date": "2025-09-16"
+       "milestoneId": "demo-120",
+       "date": "2025-08-29"
       },
       {
        "id": "m-treppe",
-       "fromMonth": 18,
+       "fromMonth": 15,
        "toMonth": 30,
        "status": "now",
        "milestoneId": null,
@@ -1258,8 +4309,8 @@
        "fromMonth": 18,
        "toMonth": 30,
        "status": "done",
-       "milestoneId": "demo-122",
-       "date": "2026-07-02"
+       "milestoneId": "demo-129",
+       "date": "2026-08-13"
       },
       {
        "id": "m-huepfen",
@@ -1271,11 +4322,72 @@
       },
       {
        "id": "m-dreirad",
-       "fromMonth": 30,
+       "fromMonth": 24,
        "toMonth": 48,
+       "status": "now",
+       "milestoneId": null,
+       "date": null
+      },
+      {
+       "id": "m-fangen",
+       "fromMonth": 36,
+       "toMonth": 60,
        "status": "later",
        "milestoneId": null,
        "date": null
+      },
+      {
+       "id": "m-einbein",
+       "fromMonth": 36,
+       "toMonth": 60,
+       "status": "later",
+       "milestoneId": null,
+       "date": null
+      }
+     ]
+    },
+    {
+     "area": "feinmotorik",
+     "items": [
+      {
+       "id": "m-greifen",
+       "fromMonth": 3,
+       "toMonth": 6,
+       "status": "done",
+       "milestoneId": "demo-104",
+       "date": "2024-12-10"
+      },
+      {
+       "id": "f-hand-zu-hand",
+       "fromMonth": 5,
+       "toMonth": 9,
+       "status": "done",
+       "milestoneId": "demo-107",
+       "date": "2025-02-17"
+      },
+      {
+       "id": "m-pinzettengriff",
+       "fromMonth": 8,
+       "toMonth": 12,
+       "status": "done",
+       "milestoneId": "demo-115",
+       "date": "2025-05-14"
+      },
+      {
+       "id": "f-turm",
+       "fromMonth": 12,
+       "toMonth": 24,
+       "status": "done",
+       "milestoneId": "demo-124",
+       "date": "2026-01-24"
+      },
+      {
+       "id": "f-kritzeln",
+       "fromMonth": 12,
+       "toMonth": 24,
+       "status": "done",
+       "milestoneId": "demo-128",
+       "date": "2026-01-17"
       },
       {
        "id": "m-schere",
@@ -1286,9 +4398,9 @@
        "date": null
       },
       {
-       "id": "m-einbein",
-       "fromMonth": 36,
-       "toMonth": 60,
+       "id": "f-faedeln",
+       "fromMonth": 30,
+       "toMonth": 48,
        "status": "later",
        "milestoneId": null,
        "date": null
@@ -1312,39 +4424,47 @@
        "toMonth": 4,
        "status": "done",
        "milestoneId": "demo-102",
-       "date": "2024-08-26"
+       "date": "2024-09-27"
       },
       {
        "id": "s-silben",
        "fromMonth": 6,
        "toMonth": 10,
        "status": "done",
-       "milestoneId": "demo-107",
-       "date": "2025-02-24"
+       "milestoneId": "demo-109",
+       "date": "2025-02-28"
+      },
+      {
+       "id": "s-name",
+       "fromMonth": 6,
+       "toMonth": 12,
+       "status": "done",
+       "milestoneId": "demo-117",
+       "date": "2025-05-10"
       },
       {
        "id": "s-erstes-wort",
        "fromMonth": 10,
        "toMonth": 18,
        "status": "done",
-       "milestoneId": "demo-113",
-       "date": "2025-09-16"
+       "milestoneId": "demo-118",
+       "date": "2025-08-22"
       },
       {
        "id": "s-zehn-woerter",
        "fromMonth": 15,
        "toMonth": 24,
        "status": "done",
-       "milestoneId": "demo-119",
-       "date": "2026-02-21"
+       "milestoneId": "demo-125",
+       "date": "2026-03-27"
       },
       {
        "id": "s-zwei-woerter",
        "fromMonth": 18,
        "toMonth": 30,
        "status": "done",
-       "milestoneId": "demo-124",
-       "date": "2026-07-18"
+       "milestoneId": "demo-131",
+       "date": "2026-06-15"
       },
       {
        "id": "s-saetze",
@@ -1369,72 +4489,11 @@
        "status": "later",
        "milestoneId": null,
        "date": null
-      }
-     ]
-    },
-    {
-     "area": "sozial",
-     "items": [
-      {
-       "id": "o-laecheln",
-       "fromMonth": 1,
-       "toMonth": 3,
-       "status": "done",
-       "milestoneId": "demo-101",
-       "date": "2024-08-23"
       },
       {
-       "id": "o-lachen",
-       "fromMonth": 3,
-       "toMonth": 6,
-       "status": "done",
-       "milestoneId": "demo-104",
-       "date": "2024-11-04"
-      },
-      {
-       "id": "o-fremdeln",
-       "fromMonth": 6,
-       "toMonth": 12,
-       "status": "done",
-       "milestoneId": "demo-108",
-       "date": "2025-03-05"
-      },
-      {
-       "id": "o-winken",
-       "fromMonth": 9,
-       "toMonth": 15,
-       "status": "done",
-       "milestoneId": "demo-112",
-       "date": "2025-07-02"
-      },
-      {
-       "id": "o-zeigen",
-       "fromMonth": 10,
-       "toMonth": 16,
-       "status": "done",
-       "milestoneId": "demo-116",
-       "date": "2025-07-23"
-      },
-      {
-       "id": "o-nebeneinander",
-       "fromMonth": 18,
-       "toMonth": 36,
-       "status": "now",
-       "milestoneId": null,
-       "date": null
-      },
-      {
-       "id": "o-als-ob",
-       "fromMonth": 24,
-       "toMonth": 42,
-       "status": "now",
-       "milestoneId": null,
-       "date": null
-      },
-      {
-       "id": "o-miteinander",
-       "fromMonth": 36,
-       "toMonth": 60,
+       "id": "s-reime",
+       "fromMonth": 48,
+       "toMonth": 72,
        "status": "later",
        "milestoneId": null,
        "date": null
@@ -1442,39 +4501,55 @@
      ]
     },
     {
-     "area": "denken",
+     "area": "kognition",
      "items": [
+      {
+       "id": "d-folgen",
+       "fromMonth": 1,
+       "toMonth": 4,
+       "status": "done",
+       "milestoneId": "demo-103",
+       "date": "2024-10-04"
+      },
+      {
+       "id": "d-ursache",
+       "fromMonth": 6,
+       "toMonth": 12,
+       "status": "done",
+       "milestoneId": "demo-111",
+       "date": "2025-04-18"
+      },
       {
        "id": "d-versteckt",
        "fromMonth": 8,
        "toMonth": 12,
        "status": "done",
-       "milestoneId": "demo-110",
-       "date": "2025-04-29"
+       "milestoneId": "demo-113",
+       "date": "2025-04-27"
       },
       {
        "id": "d-nachahmen",
        "fromMonth": 9,
        "toMonth": 15,
        "status": "done",
-       "milestoneId": "demo-117",
-       "date": "2025-07-05"
+       "milestoneId": "demo-122",
+       "date": "2025-06-24"
       },
       {
        "id": "d-formen",
        "fromMonth": 15,
        "toMonth": 24,
        "status": "done",
-       "milestoneId": "demo-120",
-       "date": "2026-02-12"
+       "milestoneId": "demo-126",
+       "date": "2026-01-23"
       },
       {
        "id": "d-koerperteile",
-       "fromMonth": 18,
+       "fromMonth": 15,
        "toMonth": 26,
        "status": "done",
-       "milestoneId": "demo-123",
-       "date": "2026-05-12"
+       "milestoneId": "demo-130",
+       "date": "2026-02-08"
       },
       {
        "id": "d-farben",
@@ -1511,28 +4586,121 @@
      ]
     },
     {
-     "area": "alltag",
+     "area": "sozial",
+     "items": [
+      {
+       "id": "o-laecheln",
+       "fromMonth": 1,
+       "toMonth": 3,
+       "status": "done",
+       "milestoneId": "demo-101",
+       "date": "2024-09-08"
+      },
+      {
+       "id": "o-lachen",
+       "fromMonth": 3,
+       "toMonth": 6,
+       "status": "done",
+       "milestoneId": "demo-105",
+       "date": "2024-11-19"
+      },
+      {
+       "id": "o-fremdeln",
+       "fromMonth": 6,
+       "toMonth": 12,
+       "status": "done",
+       "milestoneId": "demo-110",
+       "date": "2025-04-05"
+      },
+      {
+       "id": "o-winken",
+       "fromMonth": 8,
+       "toMonth": 15,
+       "status": "done",
+       "milestoneId": "demo-116",
+       "date": "2025-07-14"
+      },
+      {
+       "id": "o-zeigen",
+       "fromMonth": 10,
+       "toMonth": 16,
+       "status": "done",
+       "milestoneId": "demo-121",
+       "date": "2025-09-05"
+      },
+      {
+       "id": "o-nebeneinander",
+       "fromMonth": 18,
+       "toMonth": 36,
+       "status": "now",
+       "milestoneId": null,
+       "date": null
+      },
+      {
+       "id": "o-als-ob",
+       "fromMonth": 18,
+       "toMonth": 36,
+       "status": "now",
+       "milestoneId": null,
+       "date": null
+      },
+      {
+       "id": "o-miteinander",
+       "fromMonth": 36,
+       "toMonth": 60,
+       "status": "later",
+       "milestoneId": null,
+       "date": null
+      },
+      {
+       "id": "o-gefuehle",
+       "fromMonth": 36,
+       "toMonth": 60,
+       "status": "later",
+       "milestoneId": null,
+       "date": null
+      }
+     ]
+    },
+    {
+     "area": "selbststaendigkeit",
      "items": [
       {
        "id": "a-becher",
        "fromMonth": 12,
        "toMonth": 24,
        "status": "done",
-       "milestoneId": "demo-118",
-       "date": "2025-12-26"
+       "milestoneId": "demo-123",
+       "date": "2025-12-29"
       },
       {
        "id": "a-loeffel",
        "fromMonth": 12,
        "toMonth": 24,
        "status": "done",
-       "milestoneId": "demo-121",
-       "date": "2026-01-19"
+       "milestoneId": "demo-127",
+       "date": "2025-12-22"
       },
       {
        "id": "a-ausziehen",
        "fromMonth": 18,
        "toMonth": 30,
+       "status": "now",
+       "milestoneId": null,
+       "date": null
+      },
+      {
+       "id": "a-aufraeumen",
+       "fromMonth": 18,
+       "toMonth": 36,
+       "status": "now",
+       "milestoneId": null,
+       "date": null
+      },
+      {
+       "id": "a-haende",
+       "fromMonth": 24,
+       "toMonth": 42,
        "status": "now",
        "milestoneId": null,
        "date": null
@@ -1572,110 +4740,338 @@
    "m-treppe",
    "a-ausziehen",
    "o-nebeneinander",
-   "m-huepfen"
+   "o-als-ob"
   ],
   "ideasDefault": [
    {
     "id": "k-knete",
     "favorite": true,
-    "doneDate": null,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-spaziergang-zeigen",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-fingerspiele",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-seifenblasen",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-musik-machen",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-becher-stapeln",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-krabbeltunnel",
+    "favorite": false,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-kritzeln",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-formen-sortieren",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
     "fits": true
    },
    {
-    "id": "k-tiergeraeusche",
+    "id": "k-sandkasten",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-treppe",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-koerperteile",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-ausziehen",
+    "favorite": false,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-aufraeumlied",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-einstecken",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-fingermalen",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-natur-sammeln",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-haushalt",
+    "favorite": false,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "eigen-1",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-seil-balancieren",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-dialog-lesen",
+    "favorite": false,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-farben-sortieren",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-geraeusche-raten",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-haende-waschen",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-huepfen",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-klettern",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-laufrad",
+    "favorite": false,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-reissbild",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-selbst-anziehen",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-tisch-decken",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
     "fits": true
    },
    {
     "id": "k-wimmelbuch",
     "favorite": false,
-    "doneDate": null,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-backen",
+    "favorite": false,
+    "lastDone": null,
+    "fits": true
+   },
+   {
+    "id": "k-tiergeraeusche",
+    "favorite": false,
+    "lastDone": "2026-08-14",
+    "fits": true
+   },
+   {
+    "id": "k-turm-bauen",
+    "favorite": false,
+    "lastDone": "2026-01-13",
     "fits": true
    },
    {
     "id": "k-wasser-schuetten",
     "favorite": false,
-    "doneDate": "2026-10-01",
+    "lastDone": "2026-05-15",
+    "fits": true
+   },
+   {
+    "id": "k-puppe-versorgen",
+    "favorite": false,
+    "lastDone": "2026-10-02",
+    "fits": true
+   },
+   {
+    "id": "k-pfuetzen",
+    "favorite": false,
+    "lastDone": "2026-09-23",
     "fits": true
    }
   ],
-  "ideasMotorikOhneGemachte": [
-   "k-knete",
-   "k-kritzeln",
+  "ideasDraussenKurzZuhause": [
+   "k-spaziergang-zeigen",
+   "k-seifenblasen",
    "eigen-1",
-   "k-seil-balancieren",
-   "k-reissbild"
+   "k-wasser-schuetten",
+   "k-pfuetzen"
   ],
-  "ideasOfTheDay": [
-   "k-knete",
-   "k-tiergeraeusche",
-   "k-farben-sortieren"
+  "suggestions": [
+   {
+    "id": "k-sandkasten",
+    "reason": {
+     "type": "milestone",
+     "milestoneId": "o-nebeneinander"
+    }
+   },
+   {
+    "id": "k-aufraeumlied",
+    "reason": {
+     "type": "milestone",
+     "milestoneId": "a-aufraeumen"
+    }
+   },
+   {
+    "id": "k-laufrad",
+    "reason": {
+     "type": "milestone",
+     "milestoneId": "m-dreirad"
+    }
+   }
+  ],
+  "suggestionsDrinnen": [
+   {
+    "id": "k-aufraeumlied",
+    "reason": {
+     "type": "milestone",
+     "milestoneId": "a-aufraeumen"
+    }
+   },
+   {
+    "id": "k-knete",
+    "reason": {
+     "type": "favorite"
+    }
+   },
+   {
+    "id": "k-huepfen",
+    "reason": {
+     "type": "milestone",
+     "milestoneId": "m-huepfen"
+    }
+   }
+  ],
+  "recentByArea": {
+   "grobmotorik": 1,
+   "feinmotorik": 0,
+   "sprache": 0,
+   "kognition": 0,
+   "sozial": 1,
+   "selbststaendigkeit": 0
+  },
+  "planWeek": [
+   {
+    "date": "2026-10-12",
+    "ideaId": "k-aufraeumlied"
+   },
+   {
+    "date": "2026-10-13",
+    "ideaId": "k-treppe"
+   },
+   {
+    "date": "2026-10-15",
+    "ideaId": "k-seifenblasen"
+   },
+   {
+    "date": "2026-10-16",
+    "ideaId": "k-spaziergang-zeigen"
+   },
+   {
+    "date": "2026-10-17",
+    "ideaId": "k-sandkasten"
+   },
+   {
+    "date": "2026-10-18",
+    "ideaId": "k-ausziehen"
+   }
   ],
   "timeline": [
    {
-    "type": "diary",
-    "id": "demo-206",
-    "date": "2026-09-13"
+    "type": "activity",
+    "id": "demo-408",
+    "date": "2026-10-02"
+   },
+   {
+    "type": "activity",
+    "id": "demo-407",
+    "date": "2026-09-23"
+   },
+   {
+    "type": "activity",
+    "id": "demo-406",
+    "date": "2026-08-14"
    },
    {
     "type": "milestone",
-    "id": "demo-124",
-    "date": "2026-07-18"
+    "id": "demo-129",
+    "date": "2026-08-13"
    },
    {
     "type": "measurement",
@@ -1684,28 +5080,23 @@
    },
    {
     "type": "milestone",
-    "id": "demo-122",
-    "date": "2026-07-02"
+    "id": "demo-131",
+    "date": "2026-06-15"
    },
    {
-    "type": "milestone",
-    "id": "demo-123",
-    "date": "2026-05-12"
+    "type": "activity",
+    "id": "demo-405",
+    "date": "2026-05-15"
    },
    {
     "type": "diary",
-    "id": "demo-205",
+    "id": "demo-204",
     "date": "2026-04-14"
    },
    {
     "type": "milestone",
-    "id": "demo-119",
-    "date": "2026-02-21"
-   },
-   {
-    "type": "milestone",
-    "id": "demo-120",
-    "date": "2026-02-12"
+    "id": "demo-125",
+    "date": "2026-03-27"
    },
    {
     "type": "milestone",
@@ -1714,8 +5105,28 @@
    },
    {
     "type": "milestone",
-    "id": "demo-121",
-    "date": "2026-01-19"
+    "id": "demo-130",
+    "date": "2026-02-08"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-124",
+    "date": "2026-01-24"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-126",
+    "date": "2026-01-23"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-128",
+    "date": "2026-01-17"
+   },
+   {
+    "type": "activity",
+    "id": "demo-404",
+    "date": "2026-01-13"
    },
    {
     "type": "measurement",
@@ -1724,12 +5135,17 @@
    },
    {
     "type": "milestone",
-    "id": "demo-118",
-    "date": "2025-12-26"
+    "id": "demo-123",
+    "date": "2025-12-29"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-127",
+    "date": "2025-12-22"
    },
    {
     "type": "diary",
-    "id": "demo-204",
+    "id": "demo-203",
     "date": "2025-10-14"
    },
    {
@@ -1738,24 +5154,29 @@
     "date": "2025-10-14"
    },
    {
-    "type": "milestone",
-    "id": "demo-113",
-    "date": "2025-09-16"
+    "type": "activity",
+    "id": "demo-403",
+    "date": "2025-09-13"
    },
    {
     "type": "milestone",
-    "id": "demo-115",
-    "date": "2025-09-16"
+    "id": "demo-121",
+    "date": "2025-09-05"
    },
    {
     "type": "milestone",
-    "id": "demo-114",
-    "date": "2025-08-11"
+    "id": "demo-120",
+    "date": "2025-08-29"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-118",
+    "date": "2025-08-22"
    },
    {
     "type": "milestone",
     "id": "demo-116",
-    "date": "2025-07-23"
+    "date": "2025-07-14"
    },
    {
     "type": "measurement",
@@ -1764,28 +5185,43 @@
    },
    {
     "type": "milestone",
-    "id": "demo-117",
-    "date": "2025-07-05"
+    "id": "demo-119",
+    "date": "2025-07-08"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-122",
+    "date": "2025-06-24"
+   },
+   {
+    "type": "activity",
+    "id": "demo-402",
+    "date": "2025-06-14"
    },
    {
     "type": "milestone",
     "id": "demo-112",
-    "date": "2025-07-02"
-   },
-   {
-    "type": "diary",
-    "id": "demo-203",
-    "date": "2025-06-29"
+    "date": "2025-05-24"
    },
    {
     "type": "milestone",
-    "id": "demo-110",
-    "date": "2025-04-29"
+    "id": "demo-115",
+    "date": "2025-05-14"
    },
    {
     "type": "milestone",
-    "id": "demo-109",
-    "date": "2025-04-23"
+    "id": "demo-117",
+    "date": "2025-05-10"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-113",
+    "date": "2025-04-27"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-111",
+    "date": "2025-04-18"
    },
    {
     "type": "measurement",
@@ -1794,23 +5230,33 @@
    },
    {
     "type": "milestone",
-    "id": "demo-111",
-    "date": "2025-04-11"
+    "id": "demo-110",
+    "date": "2025-04-05"
    },
    {
     "type": "milestone",
-    "id": "demo-108",
-    "date": "2025-03-05"
+    "id": "demo-114",
+    "date": "2025-04-01"
+   },
+   {
+    "type": "activity",
+    "id": "demo-401",
+    "date": "2025-03-15"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-109",
+    "date": "2025-02-28"
    },
    {
     "type": "milestone",
     "id": "demo-107",
-    "date": "2025-02-24"
+    "date": "2025-02-17"
    },
    {
     "type": "milestone",
-    "id": "demo-106",
-    "date": "2025-02-12"
+    "id": "demo-108",
+    "date": "2025-02-14"
    },
    {
     "type": "diary",
@@ -1824,13 +5270,18 @@
    },
    {
     "type": "milestone",
-    "id": "demo-105",
-    "date": "2025-01-07"
+    "id": "demo-106",
+    "date": "2025-01-09"
    },
    {
     "type": "milestone",
-    "id": "demo-103",
-    "date": "2024-11-16"
+    "id": "demo-104",
+    "date": "2024-12-10"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-105",
+    "date": "2024-11-19"
    },
    {
     "type": "measurement",
@@ -1838,14 +5289,29 @@
     "date": "2024-11-13"
    },
    {
+    "type": "activity",
+    "id": "demo-400",
+    "date": "2024-10-13"
+   },
+   {
     "type": "milestone",
-    "id": "demo-104",
-    "date": "2024-11-04"
+    "id": "demo-103",
+    "date": "2024-10-04"
    },
    {
     "type": "diary",
     "id": "demo-201",
     "date": "2024-09-28"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-102",
+    "date": "2024-09-27"
+   },
+   {
+    "type": "milestone",
+    "id": "demo-100",
+    "date": "2024-09-14"
    },
    {
     "type": "measurement",
@@ -1854,18 +5320,8 @@
    },
    {
     "type": "milestone",
-    "id": "demo-100",
-    "date": "2024-09-10"
-   },
-   {
-    "type": "milestone",
-    "id": "demo-102",
-    "date": "2024-08-26"
-   },
-   {
-    "type": "milestone",
     "id": "demo-101",
-    "date": "2024-08-23"
+    "date": "2024-09-08"
    },
    {
     "type": "measurement",
@@ -1886,15 +5342,15 @@
   "lifeYears": [
    {
     "year": 2,
-    "count": 3
+    "count": 5
    },
    {
     "year": 1,
-    "count": 16
+    "count": 21
    },
    {
     "year": 0,
-    "count": 24
+    "count": 31
    }
   ],
   "growth": {
@@ -2004,10 +5460,11 @@
    ]
   },
   "stats": {
-   "milestones": 26,
-   "diary": 7,
+   "milestones": 33,
+   "diary": 5,
    "measurements": 10,
-   "photos": 0
+   "photos": 0,
+   "activities": 9
   }
  }
 }

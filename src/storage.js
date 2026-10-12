@@ -3,7 +3,7 @@
 
 import { COLLECTIONS } from './model.js';
 
-const DB_NAME = 'entwicklungs-app', DB_VERSION = 1, LS_KEY = 'entwicklungs-app-v1';
+const DB_NAME = 'entwicklungs-app', DB_VERSION = 2, LS_KEY = 'entwicklungs-app-v1';
 const STORES = [...COLLECTIONS, 'blobs'];
 
 const req = r => new Promise((res, rej) => { r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
@@ -28,8 +28,12 @@ export const Store = {
 
   // ---------- localStorage-Fallback ----------
   _lsGet() {
-    try { const v = JSON.parse(localStorage.getItem(LS_KEY)); if (v) return v; } catch { /* leer */ }
-    const v = { meta: {} }; STORES.forEach(s => { v[s] = {}; }); return v;
+    let v = null;
+    try { v = JSON.parse(localStorage.getItem(LS_KEY)); } catch { /* leer */ }
+    v = v && typeof v === 'object' ? v : {};
+    v.meta = v.meta || {};
+    STORES.forEach(s => { v[s] = v[s] || {}; }); // neue Sammlungen nach Updates
+    return v;
   },
   _lsSet(v) { localStorage.setItem(LS_KEY, JSON.stringify(v)); },
 

@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" id="tcLight" content="#E3DAD3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" id="tcDark" content="#1D1916" media="(prefers-color-scheme: dark)">
-<meta name="description" content="Entwicklung deines Kindes festhalten: Meilensteine, Tagebuch, Wachstum, Fotos und altersgerechte Ideen. Alle Daten bleiben auf diesem Gerät.">
+<meta name="description" content="Die Entwicklung deines Kindes altersgerecht fördern: Ideen mit Anleitung und Begründung, Meilensteine zur Orientierung, Tagebuch. Alle Daten bleiben auf diesem Gerät.">
 <title>Entwicklung</title>
 <script>try{var t=localStorage.getItem('entwicklung-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
 <link rel="manifest" href="manifest.webmanifest">
@@ -43,6 +43,7 @@
     <form id="onboardForm" class="grid">
       <div class="field"><label class="cap" for="obName">Name</label><input id="obName" name="name" required maxlength="60" autocomplete="off"></div>
       <div class="field"><label class="cap" for="obBirth">Geburtsdatum</label><input id="obBirth" name="birthDate" type="date" required></div>
+      <div class="field"><label class="cap" for="obDue">Errechneter Termin (nur bei Frühgeburt)</label><input id="obDue" name="dueDate" type="date"><p class="hint">Dann rechnet die App bis zum 2. Geburtstag mit dem korrigierten Alter.</p></div>
     </form>
     <div class="actions">
       <button type="submit" form="onboardForm" class="btn primary">Kind anlegen</button>
@@ -55,15 +56,17 @@
   <div class="tabs" id="app" hidden>
     <div role="tablist" aria-label="Bereiche">
       <button role="tab" id="tab-home" aria-controls="p-home" aria-selected="true">Übersicht</button>
-      <button role="tab" id="tab-log" aria-controls="p-log" aria-selected="false" tabindex="-1">Einträge</button>
-      <button role="tab" id="tab-ms" aria-controls="p-ms" aria-selected="false" tabindex="-1">Meilensteine</button>
       <button role="tab" id="tab-ideas" aria-controls="p-ideas" aria-selected="false" tabindex="-1">Ideen</button>
+      <button role="tab" id="tab-week" aria-controls="p-week" aria-selected="false" tabindex="-1" hidden>Woche</button>
+      <button role="tab" id="tab-dev" aria-controls="p-dev" aria-selected="false" tabindex="-1">Entwicklung</button>
+      <button role="tab" id="tab-log" aria-controls="p-log" aria-selected="false" tabindex="-1">Tagebuch</button>
       <button role="tab" id="tab-data" aria-controls="p-data" aria-selected="false" tabindex="-1">Daten</button>
     </div>
     <div role="tabpanel" id="p-home" aria-labelledby="tab-home"></div>
-    <div role="tabpanel" id="p-log" aria-labelledby="tab-log" hidden></div>
-    <div role="tabpanel" id="p-ms" aria-labelledby="tab-ms" hidden></div>
     <div role="tabpanel" id="p-ideas" aria-labelledby="tab-ideas" hidden></div>
+    <div role="tabpanel" id="p-week" aria-labelledby="tab-week" hidden></div>
+    <div role="tabpanel" id="p-dev" aria-labelledby="tab-dev" hidden></div>
+    <div role="tabpanel" id="p-log" aria-labelledby="tab-log" hidden></div>
     <div role="tabpanel" id="p-data" aria-labelledby="tab-data" hidden></div>
   </div>
 </main>

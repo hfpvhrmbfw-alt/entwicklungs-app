@@ -1,5 +1,5 @@
 /* Service Worker: App offline verfügbar machen. Speichert nur App-Dateien, keine Einträge oder Fotos. */
-const VERSION = 'entwicklung-v1.0.0';
+const VERSION = 'entwicklung-v2.0.0';
 const SHELL = ['./', './index.html', './styles.css', './manifest.webmanifest',
   './src/main.js', './src/ui.js', './src/logic.js', './src/model.js', './src/catalog.js', './src/storage.js',
   './src/texts.js', './src/format.js', './src/book.js', './src/zip.js',

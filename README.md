@@ -1,17 +1,19 @@
 # Entwicklung
 
-PWA, um die Entwicklung von Kindern festzuhalten und altersgerechte Ideen zu finden. Reine Frontend-App ohne Backend und ohne Build-Schritt. Alle Daten und Fotos liegen nur im Browser (IndexedDB, Fallback localStorage).
+PWA, die Eltern hilft, die Entwicklung ihres Kindes altersgerecht zu fördern. Im Mittelpunkt stehen Ideen mit Anleitung und Begründung; Meilensteine dienen zur Orientierung. Reine Frontend-App ohne Backend und ohne Build-Schritt. Alle Daten und Fotos liegen nur im Browser (IndexedDB, Fallback localStorage).
 
 ## Funktionen
-- **Mehrere Kinder**, Umschalten in der Kopfzeile.
-- **Meilensteine** aus einer Liste nach Bereichen (Motorik, Sprache, Miteinander, Denken, Alltag) mit typischen Zeitfenstern als Orientierung, dazu eigene Meilensteine. Mit Datum, Notiz und Fotos.
-- **Tagebuch** mit Text und Fotos.
-- **Wachstum**: Größe und Gewicht mit Verlaufsdiagramm.
-- **Ideen**: Spiele, Bastel- und Bewegungsideen nach Alter, filterbar; merken, als gemacht markieren, eigene Ideen ergänzen. Auf der Übersicht täglich wechselnde Vorschläge.
-- **Export**: ZIP mit einem gestalteten Entwicklungsbuch pro Kind (HTML, ohne App lesbar, als PDF druckbar), allen Fotos als JPG und `daten.json` zur Wiederherstellung. Das Buch gibt es auch einzeln als eine Datei mit eingebetteten Fotos.
-- **Import** eines Backups (ZIP oder `daten.json`), Hell/Dunkel, Beispieldaten.
+- **Was passt heute?** Vorschläge nach Zeit, drinnen oder draußen und vorhandenem Material. Jeder Vorschlag sagt, warum er passt: Er unterstützt einen Meilenstein, der gerade ansteht, oder einen Bereich, der zuletzt zu kurz kam. Bereiche wechseln sich ab, kürzlich Gemachtes pausiert.
+- **Ideen**: rund 100 für 0–6 Jahre (mindestens 20 je Altersband), in sechs Bereichen (Grobmotorik, Feinmotorik, Sprache, Denken, Gefühle & Miteinander, Selbstständigkeit). Jede mit Schritten, „Das lernt dein Kind dabei“, Begründung, zugrunde liegendem Prinzip, leichter/schwerer und Sicherheitshinweis. Filter, merken, eigene Ideen.
+- **Gemacht** mit Datum, Notiz und Fotos; erscheint im Tagebuch. „Gefördert in den letzten 4 Wochen“ zeigt je Bereich, was gemacht wurde, ohne Wertung.
+- **Frühchen**: Mit dem errechneten Termin rechnet die App bis zum 2. Geburtstag mit dem korrigierten Alter.
+- **Entwicklung**: Meilensteine mit Zeitfenstern als Orientierung (Sitzen, Krabbeln, Stehen, Gehen nach WHO), was als Nächstes ansteht, mit Fördertipp und passenden Ideen.
+- **Wochenplan** (in den Einstellungen einschaltbar): Ideen auf Tage legen, freie Tage automatisch füllen.
+- **Tagebuch** mit Fotos, **Wachstum** mit Verlaufsdiagramm, **mehrere Kinder**.
+- **Export**: ZIP mit einem gestalteten Entwicklungsbuch pro Kind (HTML, ohne App lesbar, als PDF druckbar), allen Fotos und `daten.json`. **Import** mit Versionsprüfung.
+- **Hinweise und Quellen** unter „Daten“.
 
-Die Zeitfenster sind grobe Orientierung, keine Bewertung und kein medizinischer Rat.
+Die App stellt keine Diagnosen und ersetzt keine ärztliche Beratung.
 
 ## Starten
 Die App nutzt ES-Module und braucht deshalb einen kleinen Server (`https://` oder `localhost`, nicht `file://`):
@@ -28,8 +30,8 @@ Abhängigkeiten nur in eine Richtung (Oberfläche → Logik → Modell, Oberflä
 | Datei | Schicht |
 |---|---|
 | `src/model.js` | Modell: IDs, Datentypen, Validierung, Backup-Format, Schema-Version |
-| `src/catalog.js` | Katalog: Meilensteine und Ideen (Inhalte) |
-| `src/logic.js` | Logik: reine Funktionen (Alter, Übersichten, Ideen, Zeitstrahl, Wachstum) |
+| `src/catalog.js` | Katalog: Ideen mit Anleitung, Meilensteine mit Fördertipps, Material, Quellen |
+| `src/logic.js` | Logik: reine Funktionen (Alter und korrigiertes Alter, Vorschläge, Wochenplan, Übersichten, Zeitstrahl, Wachstum) |
 | `src/zip.js` | ZIP schreiben und lesen, ohne Abhängigkeiten |
 | `src/storage.js` | Speicher: IndexedDB mit localStorage-Fallback |
 | `src/texts.js` | Beschriftungen und Meldungen |

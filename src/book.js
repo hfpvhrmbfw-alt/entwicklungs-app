@@ -1,7 +1,8 @@
 /* Entwicklungsbuch: eine eigenständige HTML-Seite pro Kind, lesbar ohne App, druckbar als PDF.
    Gehört zur Oberfläche (baut Text und HTML), braucht aber kein DOM: liefert einen String. */
 
-import { timeline, growthSeries, groupByLifeYear, childStats } from './logic.js';
+import { timeline, growthSeries, groupByLifeYear, childStats, effectiveAge } from './logic.js';
+import { toNum } from './model.js';
 import { esc, fmtDate, fmtShort, ageText, plural, cm, kg, dec } from './format.js';
 import { AREA_LABEL } from './texts.js';
 
@@ -64,14 +65,17 @@ export function lineChart(points, unitLabel, format) {
 /**
  * Baut das Entwicklungsbuch eines Kindes.
  * @param {{child: import('./model.js').Child, data: import('./model.js').AppData, milestoneTitles: Map<string, string>, milestoneAreas: Map<string, string>,
- *   photoSrc: (photo: import('./model.js').PhotoMeta) => string, today: string}} o
+ *   ideaTitles: Map<string, string>, ideaAreas: Map<string, string>, photoSrc: (photo: import('./model.js').PhotoMeta) => string, today: string}} o
  *   photoSrc liefert die Bildquelle (relativer Pfad im ZIP oder data:-URL); today 'YYYY-MM-DD'
  * @returns {string} vollständiges HTML-Dokument
  */
-export function buildBook({ child, data, milestoneTitles, milestoneAreas, photoSrc, today }) {
+export function buildBook({ child, data, milestoneTitles, milestoneAreas, ideaTitles = new Map(), ideaAreas = new Map(), photoSrc, today }) {
   const photos = new Map(data.photos.map(p => [p.id, p]));
   const ms = new Map(data.milestones.map(m => [m.id, m]));
   const dy = new Map(data.diary.map(d => [d.id, d]));
+  const ac = new Map(data.activities.map(a => [a.id, a]));
+  const eff = effectiveAge(child, toNum(today));
+  const corrected = eff.isCorrected && eff.corrected ? ageText(child.dueDate, today) : '';
   const stats = childStats(data, child.id);
   const age = ageText(child.birthDate, today);
   const titleOf = m => (m.catalogId ? milestoneTitles.get(m.catalogId) || 'Meilenstein' : m.title);
@@ -100,7 +104,7 @@ export function buildBook({ child, data, milestoneTitles, milestoneAreas, photoS
         `<tr><td class="date">${esc(fmtShort(m.date))}</td><td>${esc(ageText(child.birthDate, m.date))}</td><td class="num">${m.heightCm !== null ? cm(m.heightCm) : '–'}</td><td class="num">${m.weightKg !== null ? kg(m.weightKg) : '–'}</td></tr>`).join('')}</tbody></table></div>`;
   }
 
-  // Zeitstrahl: Meilensteine und Tagebuch, nach Lebensjahr, innerhalb chronologisch
+  // Zeitstrahl: Meilensteine, Gemachtes und Tagebuch, nach Lebensjahr, innerhalb chronologisch
   const items = timeline(data, child.id).filter(i => i.type !== 'measurement');
   const years = groupByLifeYear(items, child.birthDate).reverse();
   const story = years.length ? years.map(({ year, items: list }, idx) => {
@@ -110,6 +114,10 @@ export function buildBook({ child, data, milestoneTitles, milestoneAreas, photoS
       if (it.type === 'milestone') {
         const m = ms.get(it.id);
         return `<article class="entry">${meta}<span class="tag acc">Meilenstein</span></div><h3>${esc(titleOf(m))}</h3>${m.note.trim() ? `<p>${esc(m.note)}</p>` : ''}${photoGrid(m.photoIds)}</article>`;
+      }
+      if (it.type === 'activity') {
+        const a = ac.get(it.id), area = ideaAreas.get(a.ideaId);
+        return `<article class="entry">${meta}<span class="tag">Gemacht</span>${area ? `<span class="tag">${esc(AREA_LABEL[area])}</span>` : ''}</div><h3>${esc(ideaTitles.get(a.ideaId) || 'Idee')}</h3>${a.note.trim() ? `<p>${esc(a.note)}</p>` : ''}${photoGrid(a.photoIds)}</article>`;
       }
       const d = dy.get(it.id);
       return `<article class="entry">${meta}<span class="tag">Tagebuch</span></div>${d.text.trim() ? `<p>${esc(d.text)}</p>` : ''}${photoGrid(d.photoIds)}</article>`;
@@ -122,13 +130,13 @@ export function buildBook({ child, data, milestoneTitles, milestoneAreas, photoS
 <style>${CSS}</style></head><body>
 <header class="runhead"><div class="wrap cap"><span>Entwicklungsbuch · ${esc(child.name)}</span><span>Stand ${esc(fmtDate(today))}</span></div></header>
 <main class="wrap">
-<section class="hero"><h1>${esc(child.name)}</h1><div class="subtitle cap">Geboren am ${esc(fmtDate(child.birthDate))}<span class="sep">·</span>${esc(age)}</div></section>
+<section class="hero"><h1>${esc(child.name)}</h1><div class="subtitle cap">Geboren am ${esc(fmtDate(child.birthDate))}<span class="sep">·</span>${esc(age)}${child.dueDate ? `<span class="sep">·</span>Errechneter Termin ${esc(fmtDate(child.dueDate))}` : ''}${corrected ? `<span class="sep">·</span>Korrigiert ${esc(corrected)}` : ''}</div></section>
 <hr class="rule-heavy">
 <div class="kpis">
 <div class="kpi"><div class="cap">Alter</div><div class="v acc">${esc(age.split(',')[0])}</div><div class="sub">${esc(age.includes(',') ? age.split(', ')[1] : '')}</div></div>
+<div class="kpi"><div class="cap">Gemacht</div><div class="v">${stats.activities}</div><div class="sub">${plural(stats.activities, 'Idee', 'Ideen')}</div></div>
 <div class="kpi"><div class="cap">Meilensteine</div><div class="v">${stats.milestones}</div></div>
 <div class="kpi"><div class="cap">Tagebuch</div><div class="v">${stats.diary}</div><div class="sub">${plural(stats.diary, 'Eintrag', 'Einträge')}</div></div>
-<div class="kpi"><div class="cap">Fotos</div><div class="v">${stats.photos}</div></div>
 </div>
 <section class="section">${label('Meilensteine')}${mTable}</section>
 <section class="section">${label('Wachstum')}${growth}</section>
