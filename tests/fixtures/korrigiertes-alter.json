@@ -1,0 +1,96 @@
+[
+ {
+  "child": {
+   "id": "p",
+   "name": "P",
+   "birthDate": "2026-06-01",
+   "dueDate": "2026-08-10"
+  },
+  "date": "2026-10-12",
+  "expected": {
+   "months": 2,
+   "chrono": {
+    "totalDays": 133,
+    "totalMonths": 4,
+    "years": 0,
+    "months": 4,
+    "days": 11
+   },
+   "corrected": {
+    "totalDays": 63,
+    "totalMonths": 2,
+    "years": 0,
+    "months": 2,
+    "days": 2
+   },
+   "isCorrected": true,
+   "weeksEarly": 10
+  }
+ },
+ {
+  "child": {
+   "id": "p",
+   "name": "P",
+   "birthDate": "2026-06-01",
+   "dueDate": "2026-08-10"
+  },
+  "date": "2026-07-01",
+  "expected": {
+   "months": 0,
+   "chrono": {
+    "totalDays": 30,
+    "totalMonths": 1,
+    "years": 0,
+    "months": 1,
+    "days": 0
+   },
+   "corrected": null,
+   "isCorrected": true,
+   "weeksEarly": 10
+  }
+ },
+ {
+  "child": {
+   "id": "p",
+   "name": "P",
+   "birthDate": "2024-06-01",
+   "dueDate": "2024-08-10"
+  },
+  "date": "2026-10-12",
+  "expected": {
+   "months": 28,
+   "chrono": {
+    "totalDays": 863,
+    "totalMonths": 28,
+    "years": 2,
+    "months": 4,
+    "days": 11
+   },
+   "corrected": null,
+   "isCorrected": false,
+   "weeksEarly": 10
+  }
+ },
+ {
+  "child": {
+   "id": "p",
+   "name": "P",
+   "birthDate": "2025-03-10",
+   "dueDate": null
+  },
+  "date": "2026-10-12",
+  "expected": {
+   "months": 19,
+   "chrono": {
+    "totalDays": 581,
+    "totalMonths": 19,
+    "years": 1,
+    "months": 7,
+    "days": 2
+   },
+   "corrected": null,
+   "isCorrected": false,
+   "weeksEarly": 0
+  }
+ }
+]

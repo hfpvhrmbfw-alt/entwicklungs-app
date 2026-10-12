@@ -1,19 +1,30 @@
-/* Modell: Stammdaten-IDs, Datentypen, Validierung, Backup-Format, Schema-Version.
+/* Modell: Stammdaten-IDs, Datentypen, Validierung, Backup-Format, Schema-Version, Migration.
    Keine Abhängigkeiten. Beschriftungen stehen in texts.js, Katalog-Inhalte in catalog.js. */
 
 export const APP_ID = 'entwicklungs-app';
-export const SCHEMA_VERSION = 1;
+export const SCHEMA_VERSION = 2;
 
 // ---------- Stammdaten (stabile IDs, nie umbenennen, nur ergänzen) ----------
 /** Entwicklungsbereiche */
-export const AREAS = ['motorik', 'sprache', 'sozial', 'denken', 'alltag'];
-/** Arten von Ideen */
-export const KINDS = ['spiel', 'basteln', 'uebung'];
+export const AREAS = ['grobmotorik', 'feinmotorik', 'sprache', 'kognition', 'sozial', 'selbststaendigkeit'];
+/** Kategorien von Ideen */
+export const KINDS = ['spiel', 'bewegung', 'basteln', 'sprache', 'sinne', 'ausflug', 'alltag'];
+export const PLACES = ['drinnen', 'draussen', 'beides'];
+export const GROUPS = ['eins', 'geschwister', 'gruppe'];
 export const THEMES = ['auto', 'light', 'dark'];
 /** Sammlungen im Speicher und im Backup */
-export const COLLECTIONS = ['children', 'milestones', 'diary', 'measurements', 'photos', 'ideas', 'ideaStates'];
+export const COLLECTIONS = ['children', 'milestones', 'diary', 'measurements', 'photos', 'ideas', 'ideaStates', 'activities', 'plan'];
+/** Altere IDs aus Schema-Version 1 */
+const LEGACY_AREA = { motorik: 'grobmotorik', denken: 'kognition', alltag: 'selbststaendigkeit' };
+const LEGACY_KIND = { uebung: 'bewegung' };
 
-export const DEFAULT_SETTINGS = { activeChildId: null, theme: 'auto' };
+/** Bis zu diesem Alter (in Monaten, chronologisch) gilt bei Frühgeborenen das korrigierte Alter. */
+export const CORRECT_UNTIL_MONTHS = 24;
+
+export const DEFAULT_SETTINGS = {
+  activeChildId: null, theme: 'auto', weekPlan: false, homeMaterials: [],
+  today: { maxMinutes: 0, place: '', onlyHome: false },
+};
 export const TEXT_MAX = 5000;
 export const TITLE_MAX = 120;
 export const NAME_MAX = 60;
@@ -35,23 +46,29 @@ export function isDate(s) {
 
 // ---------- Typen ----------
 /**
- * @typedef {{id: string, name: string, birthDate: string}} Child
+ * @typedef {{id: string, name: string, birthDate: string, dueDate: string|null}} Child
+ *   dueDate: errechneter Geburtstermin, nur bei Frühgeburt (sonst null)
  * @typedef {{id: string, childId: string, catalogId: string|null, title: string, date: string, note: string, photoIds: string[]}} Milestone
- *   catalogId gesetzt → Meilenstein aus dem Katalog, title leer; sonst eigener Meilenstein mit title
  * @typedef {{id: string, childId: string, date: string, text: string, photoIds: string[]}} DiaryEntry
  * @typedef {{id: string, childId: string, date: string, heightCm: number|null, weightKg: number|null}} Measurement
  * @typedef {{id: string, childId: string, date: string, mime: string, width: number, height: number}} PhotoMeta
- *   Die Bilddaten selbst liegen im Speicher bzw. im Backup als Datei fotos/<id>.jpg
- * @typedef {{id: string, title: string, kind: string, area: string, fromMonth: number, toMonth: number, material: string, text: string}} Idea
- * @typedef {{id: string, childId: string, ideaId: string, favorite: boolean, doneDate: string|null}} IdeaState
- * @typedef {{activeChildId: string|null, theme: string}} Settings
- * @typedef {{children: Child[], milestones: Milestone[], diary: DiaryEntry[], measurements: Measurement[], photos: PhotoMeta[], ideas: Idea[], ideaStates: IdeaState[]}} AppData
+ * @typedef {{id: string, title: string, kind: string, area: string, fromMonth: number, toMonth: number,
+ *   minutes: number, place: string, prep: number, materials: string[], group: string[], material: string,
+ *   steps: string[], learns: string, why: string, principle: string, easier: string, harder: string, safety: string, text: string}} Idea
+ *   Katalog-Ideen nutzen alle Felder; eigene Ideen mindestens Titel, Art, Bereich, Alter und text.
+ * @typedef {{id: string, childId: string, ideaId: string, favorite: boolean}} IdeaState   gemerkte Ideen
+ * @typedef {{id: string, childId: string, ideaId: string, date: string, note: string, photoIds: string[]}} Activity   gemachte Idee
+ * @typedef {{id: string, childId: string, ideaId: string, date: string}} PlanItem   eingeplante Idee
+ * @typedef {{activeChildId: string|null, theme: string, weekPlan: boolean, homeMaterials: string[],
+ *   today: {maxMinutes: number, place: string, onlyHome: boolean}}} Settings
+ * @typedef {{children: Child[], milestones: Milestone[], diary: DiaryEntry[], measurements: Measurement[], photos: PhotoMeta[],
+ *   ideas: Idea[], ideaStates: IdeaState[], activities: Activity[], plan: PlanItem[]}} AppData
  */
 
 /** @returns {AppData} */
-export const emptyData = () => ({ children: [], milestones: [], diary: [], measurements: [], photos: [], ideas: [], ideaStates: [] });
+export const emptyData = () => Object.fromEntries(COLLECTIONS.map(c => [c, []]));
 
-/** Schlüssel für den Zustand einer Idee bei einem Kind */
+/** Schlüssel für den Merk-Zustand einer Idee bei einem Kind */
 export const ideaStateId = (childId, ideaId) => `${childId}:${ideaId}`;
 
 // ---------- Validierung ----------
@@ -59,7 +76,6 @@ const isId = v => typeof v === 'string' && /^[A-Za-z0-9_:-]{1,80}$/.test(v);
 const str = (v, max) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
 const text = (v, max) => (typeof v === 'string' ? v.slice(0, max) : '');
 const int = (v, lo, hi) => { const n = Math.round(Number(v)); return isNaN(n) ? null : Math.min(hi, Math.max(lo, n)); };
-/** Zahl im Bereich mit fester Anzahl Nachkommastellen, sonst null */
 function measure(v, lo, hi, digits) {
   if (v === null || v === undefined || v === '') return null;
   const n = Number(typeof v === 'string' ? v.replace(',', '.') : v);
@@ -68,12 +84,18 @@ function measure(v, lo, hi, digits) {
   return Math.round(n * f) / f;
 }
 const ids = v => (Array.isArray(v) ? [...new Set(v.filter(isId))] : []);
+const oneOf = (v, list, d) => (list.includes(v) ? v : d);
 
-/** @returns {Child|null} */
+/**
+ * Errechneter Termin nur, wenn er nach der Geburt und höchstens 20 Wochen später liegt.
+ * @returns {Child|null}
+ */
 export function sanitizeChild(r) {
   if (!r || !isId(r.id) || !isDate(r.birthDate)) return null;
   const name = str(r.name, NAME_MAX);
-  return name ? { id: r.id, name, birthDate: r.birthDate } : null;
+  if (!name) return null;
+  const gap = isDate(r.dueDate) ? toNum(r.dueDate) - toNum(r.birthDate) : 0;
+  return { id: r.id, name, birthDate: r.birthDate, dueDate: gap > 0 && gap <= 140 ? r.dueDate : null };
 }
 
 /** @returns {Milestone|null} */
@@ -93,10 +115,10 @@ export function sanitizeDiary(r) {
   return { id: r.id, childId: r.childId, date: r.date, text: t, photoIds };
 }
 
-/** Größe 30–200 cm (eine Nachkommastelle), Gewicht 1–80 kg (zwei Nachkommastellen). @returns {Measurement|null} */
+/** Größe 30–200 cm (eine Nachkommastelle), Gewicht 0,5–80 kg (zwei Nachkommastellen). @returns {Measurement|null} */
 export function sanitizeMeasurement(r) {
   if (!r || !isId(r.id) || !isId(r.childId) || !isDate(r.date)) return null;
-  const heightCm = measure(r.heightCm, 30, 200, 1), weightKg = measure(r.weightKg, 1, 80, 2);
+  const heightCm = measure(r.heightCm, 30, 200, 1), weightKg = measure(r.weightKg, 0.5, 80, 2);
   if (heightCm === null && weightKg === null) return null;
   return { id: r.id, childId: r.childId, date: r.date, heightCm, weightKg };
 }
@@ -116,57 +138,99 @@ export function sanitizeIdea(r) {
   let from = int(r.fromMonth, 0, 216), to = int(r.toMonth, 0, 216);
   if (from === null) from = 0;
   if (to === null || to < from) to = Math.max(from, 72);
+  const lines = v => (Array.isArray(v) ? v.map(s => str(s, 600)).filter(Boolean).slice(0, 12) : []);
   return {
     id: r.id, title,
-    kind: KINDS.includes(r.kind) ? r.kind : 'spiel',
-    area: AREAS.includes(r.area) ? r.area : 'denken',
+    kind: oneOf(LEGACY_KIND[r.kind] || r.kind, KINDS, 'spiel'),
+    area: oneOf(LEGACY_AREA[r.area] || r.area, AREAS, 'kognition'),
     fromMonth: from, toMonth: to,
-    material: str(r.material, 300), text: text(r.text, TEXT_MAX),
+    minutes: int(r.minutes, 0, 240) || 0,
+    place: oneOf(r.place, PLACES, 'beides'),
+    prep: int(r.prep, 0, 2) || 0,
+    materials: Array.isArray(r.materials) ? [...new Set(r.materials.filter(m => typeof m === 'string' && /^[a-z]{1,30}$/.test(m)))] : [],
+    group: Array.isArray(r.group) ? GROUPS.filter(g => r.group.includes(g)) : [],
+    material: str(r.material, 300), steps: lines(r.steps),
+    learns: str(r.learns, 600), why: str(r.why, 600), principle: str(r.principle, 300),
+    easier: str(r.easier, 600), harder: str(r.harder, 600), safety: str(r.safety, 600),
+    text: text(r.text, TEXT_MAX),
   };
 }
 
-/** @returns {IdeaState|null} */
+/** @returns {IdeaState|null} Nur gemerkte Ideen werden gespeichert. */
 export function sanitizeIdeaState(r) {
-  if (!r || !isId(r.childId) || !isId(r.ideaId)) return null;
-  const doneDate = isDate(r.doneDate) ? r.doneDate : null;
-  const favorite = r.favorite === true;
-  if (!favorite && !doneDate) return null; // leerer Zustand wird nicht gespeichert
-  return { id: ideaStateId(r.childId, r.ideaId), childId: r.childId, ideaId: r.ideaId, favorite, doneDate };
+  if (!r || !isId(r.childId) || !isId(r.ideaId) || r.favorite !== true) return null;
+  return { id: ideaStateId(r.childId, r.ideaId), childId: r.childId, ideaId: r.ideaId, favorite: true };
+}
+
+/** @returns {Activity|null} */
+export function sanitizeActivity(r) {
+  if (!r || !isId(r.id) || !isId(r.childId) || !isId(r.ideaId) || !isDate(r.date)) return null;
+  return { id: r.id, childId: r.childId, ideaId: r.ideaId, date: r.date, note: text(r.note, TEXT_MAX), photoIds: ids(r.photoIds) };
+}
+
+/** @returns {PlanItem|null} */
+export function sanitizePlan(r) {
+  if (!r || !isId(r.id) || !isId(r.childId) || !isId(r.ideaId) || !isDate(r.date)) return null;
+  return { id: r.id, childId: r.childId, ideaId: r.ideaId, date: r.date };
 }
 
 /** @returns {Settings} */
 export function sanitizeSettings(s) {
   s = s || {};
-  return { activeChildId: isId(s.activeChildId) ? s.activeChildId : null, theme: THEMES.includes(s.theme) ? s.theme : 'auto' };
+  const t = s.today || {};
+  return {
+    activeChildId: isId(s.activeChildId) ? s.activeChildId : null,
+    theme: oneOf(s.theme, THEMES, 'auto'),
+    weekPlan: s.weekPlan === true,
+    homeMaterials: Array.isArray(s.homeMaterials) ? [...new Set(s.homeMaterials.filter(m => typeof m === 'string' && /^[a-z]{1,30}$/.test(m)))] : [],
+    today: { maxMinutes: [0, 10, 20].includes(t.maxMinutes) ? t.maxMinutes : 0, place: oneOf(t.place, ['', 'drinnen', 'draussen'], ''), onlyHome: t.onlyHome === true },
+  };
 }
 
 export const SANITIZE = {
-  children: sanitizeChild, milestones: sanitizeMilestone, diary: sanitizeDiary,
-  measurements: sanitizeMeasurement, photos: sanitizePhoto, ideas: sanitizeIdea, ideaStates: sanitizeIdeaState,
+  children: sanitizeChild, milestones: sanitizeMilestone, diary: sanitizeDiary, measurements: sanitizeMeasurement,
+  photos: sanitizePhoto, ideas: sanitizeIdea, ideaStates: sanitizeIdeaState, activities: sanitizeActivity, plan: sanitizePlan,
 };
 
 /**
- * Prüft alle Sammlungen und entfernt Verweise ins Leere
- * (Einträge ohne bekanntes Kind, Foto-IDs ohne Foto, Ideen-Zustände ohne Idee).
+ * Bringt Rohdaten aus Version 1 auf Version 2 (auch für Daten, die schon im Gerät liegen):
+ * Gemachte Ideen wandern aus ideaStates (doneDate) in activities. Läuft mehrfach ohne Schaden.
+ */
+export function upgradeRaw(raw) {
+  const out = { ...raw };
+  const acts = Array.isArray(raw && raw.activities) ? raw.activities.slice() : [];
+  const have = new Set(acts.map(a => `${a.childId}|${a.ideaId}|${a.date}`));
+  for (const s of (Array.isArray(raw && raw.ideaStates) ? raw.ideaStates : [])) {
+    if (s && isDate(s.doneDate) && !have.has(`${s.childId}|${s.ideaId}|${s.doneDate}`)) {
+      acts.push({ id: `act-${s.childId}-${s.ideaId}-${s.doneDate}`.slice(0, 80), childId: s.childId, ideaId: s.ideaId, date: s.doneDate, note: '', photoIds: [] });
+    }
+  }
+  out.activities = acts;
+  return out;
+}
+
+/**
+ * Prüft alle Sammlungen und entfernt Verweise ins Leere.
  * @param {object} raw @param {Set<string>} catalogIdeaIds IDs der Katalog-Ideen
  * @returns {AppData}
  */
 export function sanitizeData(raw, catalogIdeaIds) {
+  raw = upgradeRaw(raw || {});
   const d = emptyData();
   for (const c of COLLECTIONS) {
     const seen = new Set();
-    for (const r of (raw && Array.isArray(raw[c]) ? raw[c] : [])) {
+    for (const r of (Array.isArray(raw[c]) ? raw[c] : [])) {
       const v = SANITIZE[c](r);
       if (v && !seen.has(v.id)) { seen.add(v.id); d[c].push(v); }
     }
   }
   const kids = new Set(d.children.map(c => c.id));
-  for (const c of ['milestones', 'diary', 'measurements', 'photos', 'ideaStates']) d[c] = d[c].filter(r => kids.has(r.childId));
+  for (const c of ['milestones', 'diary', 'measurements', 'photos', 'ideaStates', 'activities', 'plan']) d[c] = d[c].filter(r => kids.has(r.childId));
   const pics = new Set(d.photos.map(p => p.id));
-  for (const c of ['milestones', 'diary']) d[c].forEach(r => { r.photoIds = r.photoIds.filter(id => pics.has(id)); });
+  for (const c of ['milestones', 'diary', 'activities']) d[c].forEach(r => { r.photoIds = r.photoIds.filter(id => pics.has(id)); });
   d.diary = d.diary.filter(r => r.text.trim() || r.photoIds.length);
   const ideaIds = new Set([...catalogIdeaIds, ...d.ideas.map(i => i.id)]);
-  d.ideaStates = d.ideaStates.filter(s => ideaIds.has(s.ideaId));
+  for (const c of ['ideaStates', 'activities', 'plan']) d[c] = d[c].filter(s => ideaIds.has(s.ideaId));
   return d;
 }
 
@@ -180,16 +244,11 @@ export const photoFile = p => `fotos/${p.id}.${p.mime === 'image/png' ? 'png' : 
  */
 export function buildBackup(data, settings, exportedAt) {
   const byDate = (a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
-  return {
-    app: APP_ID, version: SCHEMA_VERSION, exportedAt, settings,
-    children: data.children.slice(),
-    milestones: data.milestones.slice().sort(byDate),
-    diary: data.diary.slice().sort(byDate),
-    measurements: data.measurements.slice().sort(byDate),
-    photos: data.photos.slice().sort(byDate).map(p => ({ ...p, file: photoFile(p) })),
-    ideas: data.ideas.slice(),
-    ideaStates: data.ideaStates.slice(),
-  };
+  const out = { app: APP_ID, version: SCHEMA_VERSION, exportedAt, settings };
+  for (const c of COLLECTIONS) out[c] = data[c].slice();
+  for (const c of ['milestones', 'diary', 'measurements', 'activities', 'plan']) out[c].sort(byDate);
+  out.photos = data.photos.slice().sort(byDate).map(p => ({ ...p, file: photoFile(p) }));
+  return out;
 }
 
 /**
@@ -210,7 +269,7 @@ export function parseBackup(raw, catalogIdeaIds) {
   return { ok: true, data, settings: m.settings ? sanitizeSettings(m.settings) : null, photoFiles };
 }
 
-/** Hebt ältere Backups auf die aktuelle Schema-Version. Bisher gibt es nur Version 1. */
+/** Hebt ältere Backups auf die aktuelle Schema-Version. v1 → v2: siehe upgradeRaw (läuft in sanitizeData). */
 export function migrate(raw) {
-  return raw;
+  return { ...raw, version: SCHEMA_VERSION };
 }
